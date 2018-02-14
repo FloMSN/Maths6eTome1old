@@ -1,0 +1,51 @@
+\smc@corrigechapter {Chapitre{} C1} {Exemples d'usage}{PartieFonction}{Blanc}
+\smc@corrigeactivite 
+\smc@corrigeexercicesbase 
+\inputcor {ExoBase}{C1} {1}
+\inputcor {ExoBase}{C1} {3}
+\smc@corrigeexercicesappr 
+\inputcor {ExoAppr}{C1} {12}
+\inputcor {ExoAppr}{C1} {13}
+\smc@corrigeconnaissances 
+\inputcor {QCM}{C1} {14}
+\inputcor {QCM}{C1} {15}
+\inputcor {QCM}{C1} {16}
+\inputcor {QCM}{C1} {17}
+\inputcor {QCM}{C1} {18}
+\inputcor {QCM}{C1} {19}
+\smc@corrigeenigme 
+\smc@corrigechapter {Chapitre{} C2} {Nombres entiers et d\IeC {\'e}cimaux}{PartieFonction}{Blanc}
+\smc@corrigeactivite 
+\smc@corrigeexercicesbase 
+\smc@corrigeexercicesappr 
+\smc@corrigeconnaissances 
+\inputcor {QCM}{C2} {85}
+\inputcor {QCM}{C2} {86}
+\inputcor {QCM}{C2} {87}
+\inputcor {QCM}{C2} {88}
+\inputcor {QCM}{C2} {89}
+\inputcor {QCM}{C2} {90}
+\inputcor {QCM}{C2} {91}
+\inputcor {QCM}{C2} {92}
+\inputcor {QCM}{C2} {93}
+\inputcor {QCM}{C2} {94}
+\inputcor {QCM}{C2} {95}
+\inputcor {QCM}{C2} {96}
+\inputcor {QCM}{C2} {97}
+\inputcor {QCM}{C2} {98}
+\inputcor {QCM}{C2} {99}
+\inputcor {QCM}{C2} {100}
+\inputcor {QCM}{C2} {101}
+\smc@corrigeenigme 
+\smc@corrigechapter {Chapitre{} G3} {Points, segments, droites, cercles et angles}{PartieGeometrie}{Blanc}
+\smc@corrigeactivite 
+\smc@corrigeexercicesbase 
+\smc@corrigeexercicesappr 
+\smc@corrigeconnaissances 
+\inputcor {QCM}{G3} {44}
+\smc@corrigechapter {Chapitre{} C4} {Priorit\IeC {\'e}s des op\IeC {\'e}rations}{PartieFonction}{Blanc}
+\smc@corrigeactivite 
+\smc@corrigeexercicesbase 
+\smc@corrigeexercicesappr 
+\smc@corrigeconnaissances 
+\inputcor {QCM}{C4} {5}
