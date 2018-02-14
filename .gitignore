@@ -218,3 +218,6 @@ TSWLatexianTemp*
 
 # expex forward references with \gathertags
 *-tags.tex
+
+# on ne veut pas le pdf non plus
+manuel-6e.pdf
