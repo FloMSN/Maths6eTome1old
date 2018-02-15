@@ -37,12 +37,25 @@
 \inputcor {QCM}{C2} {100}
 \inputcor {QCM}{C2} {101}
 \smc@corrigeenigme 
+\smc@corrigeenigme 
+\smc@corrigeenigme 
+\smc@corrigeenigme 
 \smc@corrigechapter {Chapitre{} G3} {Points, segments, droites, cercles et angles}{PartieGeometrie}{Blanc}
 \smc@corrigeactivite 
 \smc@corrigeexercicesbase 
 \smc@corrigeexercicesappr 
 \smc@corrigeconnaissances 
-\inputcor {QCM}{G3} {44}
+\inputcor {QCM}{G3} {58}
+\inputcor {QCM}{G3} {59}
+\inputcor {QCM}{G3} {60}
+\inputcor {QCM}{G3} {61}
+\inputcor {QCM}{G3} {62}
+\inputcor {QCM}{G3} {63}
+\inputcor {QCM}{G3} {64}
+\inputcor {QCM}{G3} {65}
+\inputcor {QCM}{G3} {66}
+\inputcor {QCM}{G3} {67}
+\inputcor {QCM}{G3} {68}
 \smc@corrigechapter {Chapitre{} C4} {Priorit\IeC {\'e}s des op\IeC {\'e}rations}{PartieFonction}{Blanc}
 \smc@corrigeactivite 
 \smc@corrigeexercicesbase 

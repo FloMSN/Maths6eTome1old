@@ -176,6 +176,10 @@
 \RequirePackage{ifmtarg}
 \RequirePackage{mathtools}
 \RequirePackage{amssymb}
+% les deux lignes suivantes sont ajoutées pour le livret Flo
+\RequirePackage{calrsfs}
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+% fin ajout
 \RequirePackage{longtable, tabularx}
 \RequirePackage{multirow}
 \RequirePackage[table]{xcolor}
