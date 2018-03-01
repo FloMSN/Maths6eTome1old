@@ -61,4 +61,21 @@
 \smc@corrigeexercicesbase 
 \smc@corrigeexercicesappr 
 \smc@corrigeconnaissances 
-\inputcor {QCM}{C4} {5}
+\inputcor {QCM}{C4} {24}
+\inputcor {QCM}{C4} {25}
+\inputcor {QCM}{C4} {26}
+\inputcor {QCM}{C4} {27}
+\inputcor {QCM}{C4} {28}
+\inputcor {QCM}{C4} {29}
+\inputcor {QCM}{C4} {30}
+\inputcor {QCM}{C4} {31}
+\inputcor {QCM}{C4} {32}
+\inputcor {QCM}{C4} {33}
+\inputcor {QCM}{C4} {34}
+\smc@corrigeenigme 
+\smc@corrigechapter {Chapitre{} G5} {Triangles}{PartieGeometrie}{Blanc}
+\smc@corrigeactivite 
+\smc@corrigeexercicesbase 
+\smc@corrigeexercicesappr 
+\smc@corrigeconnaissances 
+\inputcor {QCM}{G5} {39}

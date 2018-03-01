@@ -1,0 +1,28 @@
+\begin{enigme}[Algorithme de Kaprekar (source wikipedia)]
+
+Nous allons étudier un algorithme découvert en 1949 par le mathématicien indien D.R. Kaprekar (1905 – 1988) pour les nombres de 4 chiffres, mais qui peut être généralisé à tous les nombres.
+
+\begin{enumerate}
+ \item Description de l'algorithme (pour un nombre de 3 chiffres) :
+  \begin{itemize}
+   \item Choisir un nombre de 3 chiffres ;
+   \item Construire le nombre supérieur ou égal en ordonnant par ordre décroissant les chiffres du nombre choisi ; \label{PrioOp_enigme_nomsup}
+   \item Construire le nombre inférieur ou égal en ordonnant par ordre croissant les chiffres du nombre choisi ; \label{PrioOp_enigme_nominf}
+   \item Calculer la différence entre le nombre supérieur et le nombre inférieur ; \label{PrioOp_enigme_supinf}
+   \item Répéter les étapes \ref{PrioOp_enigme_nomsup}, \ref{PrioOp_enigme_nominf} et \ref{PrioOp_enigme_supinf} avec ce nouveau nombre.
+   \end{itemize}
+   
+\vspace{0.75em}
+
+En prenant le nombre 634, le nombre supérieur est 643, l'inférieur est 346, la différence est  $643 - 346 = 297$ et on obtient la séquence 634, 297, 693, 594, 495, 495, \ldots
+
+\vspace{1em}
+   
+ \item Teste l'algorithme avec 5 nombres de 3 chiffres. Qu'observes-tu ? \\[1em]
+Teste l'algorithme avec 5 nombres de 4 chiffres. Que peux-tu observer ?
+
+ \end{enumerate}
+ 
+ \end{enigme}
+
+

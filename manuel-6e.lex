@@ -9,3 +9,8 @@
 \smc@preinsertlexique []{bissectrice}{58}
 \smc@preinsertlexique []{cercle}{59}
 \smc@preinsertlexique []{rayon}{59}
+\smc@preinsertlexique []{expression}{78}
+\smc@preinsertlexique []{hauteur}{98}
+\smc@preinsertlexique []{concourantes}{99}
+\smc@preinsertlexique []{centre du cercle circonscrit au triangle}{99}
+\smc@preinsertlexique []{centre du cercle inscrit}{100}

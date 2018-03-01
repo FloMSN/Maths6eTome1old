@@ -5,3 +5,10 @@
 \l@methode {Construire une médiatrice}{57}
 \l@methode {Construire une bissectrice}{58}
 \l@methode {Vocabulaire du cercle}{59}
+\l@methode {Construire un triangle}{94}
+\l@methode {Construire un triangle rectangle}{95}
+\l@methode {Construire un triangle connaissant un angle et les longueurs de ses côtés adjacents}{96}
+\l@methode {Construire un triangle connaissant deux angles et la longueur de leur côté commun}{97}
+\l@methode {Construire les hauteurs d'un triangle}{98}
+\l@methode {Construire le cercle circonscrit à un triangle}{99}
+\l@methode {Centre du cercle inscrit dans un triangle}{100}
