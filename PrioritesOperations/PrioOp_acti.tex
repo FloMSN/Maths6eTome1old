@@ -1,34 +1,23 @@
 \begin{activite}[Ordre des opérations]
 
 \begin{partie}[Le mauvais ordre]
-Voici le calcul qui a été proposé aux 23 élèves d’une classe de 8e : $3 + 6 \times 7$. Voici les résultats obtenus :
-
+Voici le calcul qui a été proposé aux 23 élèves d’une classe de 8e : $3 + 6 \times 7$. Voici les résultats obtenus : \\[0.5em]
 \begin{center}
-  \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
-  \begin{Ctableau}{0.7\linewidth}{4}{c}
-  	\hline
-	Résultat & 45 & 63 & Autres \\\hline
-	Nombre d'élèves & 11 & 10 & 2 \\\hline
-  \end{Ctableau}
+\begin{tabularx}{.8\linewidth}{|c|*{6}{>{\centering \arraybackslash}X|}}
+\hline \rowcolor{G3} Résultat & 45 & 63 & Autres \\
+\hline \rowcolor{F3} Nombre d'élèves & 11 & 10 & 2 \\
+\hline
+\end{tabularx}
 \end{center}
 
-%\begin{center} % un exemple de tableau donné par Simon en alternative
-%\begin{tabularx}{.8\linewidth}{|c|*{6}{>{\centering \arraybackslash}X|}}
-%\hline \rowcolor{FondTableaux} $x$ & 0 & $\pi/6$ & $\pi/4$ &$\pi/3$ & $\pi/2$ & $\pi$\\
-%\hline \cellcolor{FondTableaux} $\cos x$ & $1$ & $\sqrt{3}/2$ &  $\sqrt{2}/2$ &$1/2$ & $0$ & $-1$ \\
-%\hline \cellcolor{FondTableaux} $\sin x$ & $0$ & $1/2$ & $\sqrt{2}/2$ & $\sqrt{3}/2$ & $1$ & $0$ \\
-%\hline
-%\end{tabularx}
-%\end{center}
-
 \begin{enumerate}
- \item Explique comment les élèves ont trouvé les résultats 45 et 63.
+ \item Explique comment les élèves ont trouvé les résultats 45 et 63 ;
  \item En observant les quatre calculs ci-dessous, qui sont corrects, énonce la règle de priorité :
           \begin{colitemize}{2}
-           \item $15 - 2 \times 3 = 9$
-          \item $7 \times 8 + 10 = 66$
-          \item $27 + 35 \div 5 = 34$
-           \item $60 - 12 \div 4 = 57$
+           \item $15 - 2 \times 3 = 9$ ;
+          \item $7 \times 8 + 10 = 66$ ;
+          \item $27 + 35 \div 5 = 34$ ;
+           \item $60 - 12 \div 4 = 57$ ;
            \end{colitemize} 
  \item Calcule $9 - 9 \times 0,5$ puis $9 \times 7 - 8 \div 4$.   
  \end{enumerate}
@@ -37,15 +26,15 @@ Voici le calcul qui a été proposé aux 23 élèves d’une classe de 8e : $3�
 
 \begin{partie}[Lire dans le bon sens]
 \begin{enumerate}
- \item Calcule $K = 4 + 12 - 3 + 7$.
- \item Un professeur a programmé deux feuilles, sur un tableur, pour montrer les étapes de calcul. En observant les captures d'écran ci-dessous, énonce la règle. \\[1em]
+ \item Calcule $K = 4 + 12 - 3 + 7$ ;
+ \item Un professeur a programmé deux feuilles, sur un tableur, pour montrer les étapes de calcul. En observant les captures d'écran ci-dessous, énonce la règle : \\[1em]
  \begin{minipage}{0.4\textwidth}
   \includegraphics[width=5.5cm]{tableau1}
   \end{minipage} \hfill%
    \begin{minipage}{0.4\textwidth}
     \includegraphics[width=5.5cm]{tableau2}
     \end{minipage}\\
- \item Calcule, sur ton cahier, en écrivant les étapes :  $N = 21 - 9 - 3$  et  $P = 17 - 8 + 1$.
+ \item Calcule, sur ton cahier, en écrivant les étapes :  $N = 21 - 9 - 3$  et  $P = 17 - 8 + 1$ ;
  \item Dans l'expression $K$, où dois-tu placer des parenthèses pour obtenir 6 comme résultat ?
  \end{enumerate}
 \end{partie}
@@ -59,28 +48,26 @@ Voici le calcul qui a été proposé aux 23 élèves d’une classe de 8e : $3�
  \begin{minipage}{0.6\textwidth}
 Hervé et Bruno ont tous deux acheté une calculatrice. Hervé a choisi une calculatrice performante avec laquelle il peut écrire les formules. Bruno, lui, a acheté une petite calculatrice solaire. Ils cherchent à calculer $4 + 3 \cdot 8$.
 
-Tous les deux appuient successivement sur les touches suivantes :    
-
+Tous les deux appuient successivement sur les touches suivantes :  \\[0.5em]
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
 \cline{1-1} \cline{3-3}\cline{5-5} \cline{7-7}\cline{9-9} \cline{11-11}
 4 & & + & & 3 & & $\times$ & & 8 & & = \\ \cline{1-1} \cline{3-3}\cline{5-5} \cline{7-7}\cline{9-9} \cline{11-11}
-\end{tabular}
-
+\end{tabular} \\[0.5em]
 Hervé obtient 28 comme résultat et Bruno obtient 56.
  \end{minipage} \hfill%
   \begin{minipage}{0.2\textwidth}
    \includegraphics[width=3.5cm]{calculette}
    \end{minipage}\\
 
-\begin{partie}[]
+\begin{partie}
 Qui a le bon résultat ?
 \end{partie}
 
-\begin{partie}[]
+\begin{partie}
 Les deux calculatrices fonctionnent très bien. Comment expliques-tu ces résultats différents ?
 \end{partie}
 
-\begin{partie}[]
+\begin{partie}
 Après réflexion, Bruno a trouvé une méthode pour obtenir le bon résultat avec sa calculatrice solaire. Quelle est cette méthode ?
 \end{partie}
 
@@ -91,7 +78,7 @@ Après réflexion, Bruno a trouvé une méthode pour obtenir le bon résultat av
 \begin{activite}[Attention à la présentation]
 
  \begin{partie}
-Mélanie et Aïssatou ont effectué le même calcul dont voici le détail ci-dessous. L'une d'entre elles s'est trompée. Indique laquelle et explique son erreur. 
+Mélanie et Aïssatou ont effectué le même calcul dont voici le détail ci-dessous. L'une d'entre elles s'est trompée. Indique laquelle et explique son erreur :
 
 \vspace{1em}
 
@@ -109,7 +96,7 @@ Mélanie et Aïssatou ont effectué le même calcul dont voici le détail ci-des
 
 
 \begin{partie}
-Mélanie et Aïssatou ont un second calcul à effectuer dont voici le détail ci-dessous. Aïssatou n'a pas réussi à terminer son calcul. Indique son erreur.
+Mélanie et Aïssatou ont un second calcul à effectuer dont voici le détail ci-dessous. Aïssatou n'a pas réussi à terminer son calcul. Indique son erreur :
 
 \vspace{1em}
 
@@ -134,6 +121,7 @@ Mélanie et Aïssatou ont un second calcul à effectuer dont voici le détail ci
 \textbf{Notation :}
 
 L’écriture $\dfrac{10}{(2 + 3)}$ correspond à $10 / (2 + 3)$ ou encore à $10 : (2 + 3)$.
+
 Autrement dit : $\dfrac{10}{(2 + 3)} = 10 : 5 = 2$. Le trait horizontal s'appelle la \textbf{barre de fraction}.
 
 \begin{partie}
@@ -164,10 +152,10 @@ Donne les définitions des mots : somme, différence, produit, quotient, terme 
 \begin{partie}
 Dans chaque expression, entoure le symbole de l'opération que l'on effectue en dernier :
 \begin{colitemize}{4}
- \item $A = 5 \cdot (7 + 9)$
- \item $B = 5 \cdot 7 + 9$
- \item $C = 9 - 5 + 7$
- \item $D = 5 + 7 - 9$
+ \item $A = 5 \cdot (7 + 9)$ ;
+ \item $B = 5 \cdot 7 + 9$ ;
+ \item $C = 9 - 5 + 7$ ;
+ \item $D = 5 + 7 - 9$.
  \end{colitemize}
 \end{partie}
 
