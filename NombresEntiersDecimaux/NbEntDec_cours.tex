@@ -1,8 +1,6 @@
-%\section{} %mettre un titre de section ?
+\section{Le système décimal}
 
 % remarque : pour qu'un mot se retrouve dans le lexique : \MotDefinition{asymptote horizontale}{} 
-
-\begin{methode*1}[Écriture et lecture des nombres en base 10]
 
 Les règles et conventions qui permettent d'écrire et de lire les nombres forment ce qu'on appelle un \textbf{système de numération}. Nous utilisons le système décimal, de base dix.
 
@@ -12,7 +10,9 @@ Pour écrire les chiffres dans le système décimal, il nous faut dix symboles, 
 Il arrive parfois qu'on confonde \textbf{\MotDefinition{chiffre}{}} et \textbf{\MotDefinition{nombre}{}}. On peut faire l'analogie avec l'écriture d'une langue en affirmant que les \textbf{\textcolor{H1}{chiffres}} sont des \textbf{\textcolor{H1}{lettres}} et que les \textbf{\textcolor{H1}{nombres}} sont des \textbf{\textcolor{H1}{mots}}. Ainsi, 13 est un nombre qui s'écrit avec les chiffres 1 et 3.
 \end{aconnaitre}
 
-\vspace{2em}
+\newpage
+
+\begin{methode*1}[Écriture et lecture des nombres en base 10]
 
 L'\textbf{\textcolor{C2}{écriture décimale}} d'un nombre comporte deux parties, séparées par une virgule :
 
@@ -22,7 +22,7 @@ L'\textbf{\textcolor{C2}{écriture décimale}} d'un nombre comporte deux parties
 
 
 
-Un nombre entier est caractérisé par le fait qu'il n'a pas de parti décimale (on omet alors la virgule).
+Un nombre entier est caractérisé par le fait qu'il n'a pas de partie décimale (on omet alors la virgule).
 
 \vspace{2em}
 
@@ -74,6 +74,7 @@ C’est un nombre entier.
 \end{exemple*1}
 
 \exercice 
+
 Donne une écriture décimale du nombre cinquante-trois millions quatre cent vingt-sept mille huit cent dix-neuf virgule zéro zéro cinq cent soixante-et-un.
 %\correction
 
@@ -112,6 +113,7 @@ $C$ se place 3 dixièmes à la droite du 4.
 \end{exemple*1}
 
 \exercice 
+
 Sur une demi-droite graduée, place les points $M$ d'abscisse 2,7 et $N$ d'abscisse 5,2.
 %\correction
 
@@ -131,6 +133,7 @@ Pour encadrer au centième, on «coupe» le nombre 13,345 au centième et on obt
 \end{exemple*1}
 
 \exercice
+
 Encadrer les nombres 237,48 et 43,923\,5 à la dizaine puis au centième.
 %\correction
 
@@ -155,6 +158,8 @@ Encadrer les nombres 237,48 et 43,923\,5 à la dizaine puis au centième.
 \end{methode*1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Multiplier ou diviser}
 
 \begin{methode*1}[Multiplier ou diviser un nombre décimal par 10 ; 100 ; 1\,000 \ldots]
 
@@ -207,6 +212,7 @@ On obtient $0,47 \cdot 1\,000 = 470$.
 \end{exemple*1}
 
 \exercice
+
 Effectue : 
 \begin{colenumerate}{4}
  \item $3,6 \cdot 100$ ;
@@ -217,6 +223,7 @@ Effectue :
 %\correction
  
 \exercice
+
 Convertis en cm :
 \begin{colenumerate}{4}
  \item 4 dm ;
@@ -281,6 +288,7 @@ On obtient $0,65 \div 0,001 = 650$.
 
 
 \exercice
+
 Effectuer :
 \begin{colenumerate}{4}
  \item $5,45 \cdot 0,1$ ;
@@ -297,13 +305,27 @@ Effectuer :
 \begin{methode*1}[Multiplier deux nombres décimaux]
 
 \begin{exemple*1}
+
 Effectue la multiplication de 2,34 par 1,2.\\[1em]
+
 On pose l'opération comme s'il s'agissait de nombres entiers. 
 
-On effectue la multiplication de 234 par 12 sans tenir compte des virgules.\\[0.75em]
-234 est \textcolor{B1}{\textbf{100}} fois plus grand que 2,34 et 12 est 10 fois plus grand que 1,2. Le produit $2,34 \cdot 1,2$ est donc \textcolor{J1}{\textbf{1\,000}} fois plus petit que 2\,808. Pour obtenir le résultat, on effectue donc $2\,808 : 1\,000$.\\[0.75em]
+On effectue la multiplication de 234 par 12 sans tenir compte des virgules.
+
+\begin{minipage}{.6\linewidth}
+\begin{tabular}{rrrrcrrrr}
+& 2, & 3 & 4 & $\xrightarrow{\times \text{\textcolor{B1}{\textbf{100}}}}$ & & 2 & 3 & 4 \\
+$\cdot$ & & 1, & 2 & $\xrightarrow{\times \text{\textcolor{A1}{\textbf{10}}}}$ & $\cdot$ & & 1 & 2 \\ \cline{1-4} \cline{6-9}
+& & & & & & 4 & 6 & 8 \\
+& & & & & 2 & 3 & 4 & . \\ \cline{1-4} \cline{6-9}
+2, & 8 & 0 & 8 & $\xleftarrow{\,:\,\text{\textcolor{J1}{\textbf{1\,000}}}}$ & 2 & 8 & 0 & 8 \\
+\end{tabular}
+\end{minipage}\hfill%
+%
+\begin{minipage}{.37\linewidth}
+234 est \textcolor{B1}{\textbf{100}} fois plus grand que 2,34 et 12 est \textcolor{A1}{\textbf{10}} fois plus grand que 1,2. Le produit $2,34 \cdot 1,2$ est donc \textcolor{J1}{\textbf{1\,000}} fois plus petit que 2\,808. Pour obtenir le résultat, on effectue donc $2\,808 : 1\,000$.\\[0.75em]
+\end{minipage}
 Finalement $2,34 \cdot 1,2 = 2,808$.
-% Il manque un tableau. Mettre les couleurs aux chiffres du tableau.
 \end{exemple*1}
 
 \exercice
@@ -317,6 +339,7 @@ Sachant que $168 \cdot 32 = 5\,376$, détermine les produits (sans aucun cal
 %\correction
 
 \exercice
+
 Pose et effectue les opérations :
 \begin{colenumerate}{4}
  \item $68,7 \cdot 39$ ;
@@ -352,6 +375,7 @@ Ainsi $\textcolor{A1}{75,8} : \textcolor{H1}{4} = \textcolor{C1}{1}\textcolor{
 \end{exemple*1}
 
 \exercice
+
 Calcule la valeur exacte ou une valeur arrondie au centième des quotients :
 \begin{colenumerate}{4}
  \item $10 : 7$ ;
@@ -379,6 +403,7 @@ $32,4 : 2,25 = 14,4$.
 \end{exemple*1}
 
 \exercice
+
 Calcule la valeur exacte ou une valeur arrondie au centième des quotients :
 \begin{colenumerate}{4}
  \item $4 : 6,37$ ;
@@ -392,39 +417,47 @@ Calcule la valeur exacte ou une valeur arrondie au centième des quotients :
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%        
 
-\begin{methode*1}[Opérations sur les durées]
+\section{Opérations sur les durées}
 
-\subsection{Conversion en minutes ou en secondes}
+
+%%%%%%%
+
+\begin{methode*1}[Conversion en minutes ou en secondes]
 
 \begin{exemple*1}
-\begin{enumerate}
- \item Combien y a-t-il de minutes dans 5 h 27 min ?
- \item Combien y a-t-il de secondes dans 2 h 47 min 53 s ?
- \end{enumerate}
- 
 
 \begin{enumerate}
- 
- \item \emph{Correction}
+\item Combien y a-t-il de minutes dans 5 h 27 min ?
 
-\begin{tabular}{lcl} 
-\textcolor{bleu}{\textbf{5 h}} $=$ \textcolor{bleu}{\textbf{5}} $\times$ 60 min $=$ \textcolor{bleu}{\textbf{300 min}}  & $\longrightarrow$ & On convertit les heures en minutes. \\
-\textcolor{bleu}{\textbf{5 h}} \textcolor{vert}{\textbf{27 min}} $=$ \textcolor{bleu}{\textbf{300 min}} $+$ \textcolor{vert}{\textbf{27 min}} $=$ 327 min & $\longrightarrow$ & On termine le calcul.\\
-\phantom{2 h 47 min 53 s $=$ 7\,200 s $+$ 2\,820 s $+$ 53 s $=$ 10\,073 s} & \\ % phantom pour alignement avec tableau ci-dessous
- \end{tabular} 
+\begin{tabular}{ll} 
+\textcolor{bleu}{\textbf{5 h}} $=$ \textcolor{bleu}{\textbf{5}} $\times$ 60 min $=$ \textcolor{bleu}{\textbf{300 min}}  & $\rightarrow$ Convertir les heures en minutes. \\
+\textcolor{bleu}{\textbf{5 h}} \textcolor{vert}{\textbf{27 min}} $=$ \textcolor{bleu}{\textbf{300 min}} $+$ \textcolor{vert}{\textbf{27 min}} $=$ 327 min & $\rightarrow$ Terminer le calcul.\\
+%\phantom{2 h 47 min 53 s $=$ 7\,200 s $+$ 2\,820 s $+$ 53} & \\ % phantom pour alignement avec tableau ci-dessous
+\end{tabular} 
+
+\vspace{2em}\item Combien y a-t-il de secondes dans 2 h 47 min 53 s ?
+
+\begin{tabular}{ll} 
+\textcolor{bleu}{\textbf{2 h}} $=$ \textcolor{bleu}{\textbf{2}} $\times$ 3\,600 s $=$ \textcolor{bleu}{\textbf{7\,200 s}} & $\rightarrow$ Convertir les heures en secondes. \\
+\textcolor{vert}{\textbf{47 min}} $=$ \textcolor{vert}{\textbf{47}} $\times$ 60 s $=$ \textcolor{vert}{\textbf{2\,820}} s & $\rightarrow$ Convertir les minutes en secondes. \\
+\textcolor{bleu}{\textbf{2 h}} \textcolor{vert}{\textbf{47 min}} 53 s $=$ \textcolor{bleu}{\textbf{7\,200 s}} $+$ \textcolor{vert}{\textbf{2\,820}} s $+$ 53 s  \\
+\phantom{2 h 47 min 53 si}$=$ 10\,073 s & $\rightarrow$ Terminer le calcul. \\
+\end{tabular}
+
+\end{enumerate}
  
- \item \emph{Correction}
- 
-\begin{tabular}{lcl} 
-\textcolor{bleu}{\textbf{2 h}} $=$ \textcolor{bleu}{\textbf{2}} $\times$ 3\,600 s $=$ \textcolor{bleu}{\textbf{7\,200 s}} & $\longrightarrow$ & On convertit les heures en secondes. \\
-\textcolor{vert}{\textbf{47 min}} $=$ \textcolor{vert}{\textbf{47}} $\times$ 60 s $=$ \textcolor{vert}{\textbf{2\,820}} s & $\longrightarrow$ & On convertit les minutes en secondes. \\
-\textcolor{bleu}{\textbf{2 h}} \textcolor{vert}{\textbf{47 min}} 53 s $=$ \textcolor{bleu}{\textbf{7\,200 s}} $+$ \textcolor{vert}{\textbf{2\,820}} s $+$ 53 s $=$ 10\,073 s & $\longrightarrow$ & On termine le calcul. \\
- \end{tabular}
- \end{enumerate}
 \end{exemple*1}
 
+\exercice
 
-\subsection{Conversion en heures, minutes et secondes}
+\end{methode*1}
+
+
+
+%%%%%%%
+
+
+\begin{methode*1}[Conversion en heures, minutes et secondes]
 
 \begin{exemple*1}
 Combien y a-t-il d'heures, minutes et secondes dans 41\,000 s ? \\[1em]
@@ -445,8 +478,13 @@ On a donc 41\,000 s $=$ \textcolor{bleu}{\textbf{11 h}} \textcolor{rose}{\t
 
 \end{exemple*1}
 
+\exercice
 
-\subsection{Addition de durées}
+\end{methode*1}
+
+%%%%%%%%%%%%
+
+\begin{methode*1}[Addition de durées]
 
 \begin{exemple*1}
 Un match dure 3 h 38 min et le suivant dure 2 h 49 min. Quelle est la durée totale de ces deux matchs ? \\[1em]
@@ -465,8 +503,21 @@ La durée totale de ces deux matchs est donc de \textcolor{rose}{\textbf{6 h 2
 
 \end{exemple*1}
 
+\exercice
 
-\subsection{Soustraction de durées}
+Calcule :
+
+3 h 05 min 13 s $+$ 56 min 48 s.
+
+\vspace{1em}
+
+1 h 46 min $+$ 2 h 37 min.
+
+\end{methode*1}
+
+%%%%%%%%%%%%
+
+\begin{methode*1}[Soustraction de durées]
 
 \begin{exemple*1}
 Un film débute à 15 h 27 et finit à 18 h 14. Quelle est la durée de ce film ? \\[1em]
@@ -487,15 +538,15 @@ Ce film dure donc \textcolor{rose}{\textbf{2 h 47 min}}.
 \end{exemple*1}
 
 \exercice
+
 Calcule :
 
-3 h 05 min 13 s $+$ 56 min 48 s puis 1 h 35 min 29 s $-$ 46 min 37 s.
-%\correction
+1 h 35 min 29 s $-$ 46 min 37 s.
 
-\exercice
-Calcule :
+\vspace{1em}
 
-1 h 46 min $+$ 2 h 37 min et 9 min 16 s $-$ 7 min 55 s.
+9 min 16 s $-$ 7 min 55 s.
+
 %\correction
 
 \end{methode*1}

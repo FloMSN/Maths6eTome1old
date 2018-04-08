@@ -1,5 +1,5 @@
-\smc@preinsertlexique []{chiffre}{13}
-\smc@preinsertlexique []{nombre}{13}
+\smc@preinsertlexique []{chiffre}{12}
+\smc@preinsertlexique []{nombre}{12}
 \smc@preinsertlexique []{abscisse}{14}
 \smc@preinsertlexique []{Encadrer}{14}
 \smc@preinsertlexique []{Arrondir}{15}

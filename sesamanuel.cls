@@ -2699,7 +2699,7 @@
 \newcommand*\StringVocabulaire{Vocabulaire}
 \newcommand*\StringVocabulaires{Vocabulaires}
 \newcommand*\StringLexique{Lexique}
-\newcommand*\LogoManuel{\textcolor{U4}{\LogoManuelFont @}}
+\newcommand*\LogoManuel{\textcolor{Blanc}{\LogoManuelFont @}} % couleur U4 changée en Blanc
 \newcommand\StringDEBAT{D\'EBAT}
 \newcommand\StringACTIVITE{ACTIVIT\'E}
 \newcommand\StringTP{TP}
@@ -3114,7 +3114,7 @@
   \begin{minipage}[b]{\AEManuelWidth}
     \raggedright
     \AEManuelFont
-    \StringManuel
+    %\StringManuel
     \par\vspace*{\AfterAEManuelVSpace}
   \end{minipage}%
   \hspace{\AEManuelRightSpace}%
@@ -4393,12 +4393,12 @@
   \begin{minipage}[b]{\QCMAEManuelWidth}
     \raggedright
     \QCMAEManuelFont
-    \StringManuel
+    %\StringManuel
     \par\vspace*{\AfterQCMAEManuelVSpace}
   \end{minipage}%
   \hspace{\QCMAEManuelRightSpace}%
   \raisebox{\AfterQCMAEManuelVSpace}
-           {\psscaleboxto(\AELogoManuelWidth,0){\LogoManuel}}%
+           {\psscaleboxto(\AELogoManuelWidth,0){\LogoManuel}}% 
   \par\nobreak\vspace{\AfterQCMAETitleVSpace}
   {\QCMAETextAfterTitleFont #1\par\nobreak}
   \par\nobreak\addvspace{\AfterQCMAETextVSpace}

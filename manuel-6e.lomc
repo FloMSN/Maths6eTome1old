@@ -7,7 +7,10 @@
 \l@methode {Multiplier deux nombres décimaux}{18}
 \l@methode {Diviser un nombre décimal par un nombre entier}{19}
 \l@methode {Diviser un nombre décimal par un nombre décimal}{19}
-\l@methode {Opérations sur les durées}{20}
+\l@methode {Conversion en minutes ou en secondes}{20}
+\l@methode {Conversion en heures, minutes et secondes}{20}
+\l@methode {Addition de durées}{21}
+\l@methode {Soustraction de durées}{21}
 \l@methode {Calculer une expression}{68}
 \l@methode {Multiples, diviseurs et critères de divisibilité}{107}
 \l@methode {Utiliser la notation «puissance»}{108}
