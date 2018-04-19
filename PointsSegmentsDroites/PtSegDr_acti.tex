@@ -10,6 +10,8 @@ Quand le code est compris, tracer la figure de la case \circled{3} et écrire la
 
   \vspace{1em}
   
+  
+  
   \begin{tabular}{|c|c|c|c|c|}
   \cline{1-2}\cline{4-5}
     \circled{1} 		& \circled{2} 		& 	& \circled{3} 		& \circled{4}	\\ 
@@ -20,14 +22,14 @@ Quand le code est compris, tracer la figure de la case \circled{3} et écrire la
    \includegraphics[width=.2\linewidth]{tracerAC-BC} & & 
    \includegraphics[width=.2\linewidth]{tracerAB-BC-AC}& 
    \includegraphics[width=.2\linewidth]{tracer} 					\\ \cline{1-2}\cline{4-5}
+  \end{tabular}\\[1em]
 
-   \end{tabular}\\[1em]
   
-   \item Lire la consigne de la case \circled{5} et observer la figure correspondant à cette consigne. tracer ensuite la figure de la case \circled{6} et écrire la consigne de la case \circled{7}.
+   \item Lire la consigne de la case \circled{5} et observer la figure correspondant à cette consigne. Tracer ensuite la figure de la case \circled{6} et écrire la consigne de la case \circled{7}.
    
    \vspace{1em}
   
-   \begin{tabular}{|l|l|l|}
+    \begin{tabular}{|l|l|l|}
    \hline
     \hfill \circled{5} \hfill			&	\hfill \circled{6} \hfill				&	\hfill \circled{7} \hfill 	\\
     - Tracer la droite passant par 	&	- Tracer le segment 				&					\\
@@ -40,12 +42,16 @@ Quand le code est compris, tracer la figure de la case \circled{3} et écrire la
     \includegraphics[width=.24\linewidth]{tracerRST}			&
     \includegraphics[width=.24\linewidth]{tracerLCI}			\\ \hline
     \end{tabular}\\[1em]
+
     
+  \newpage
+  
    \item Compléter le tableau suivant :
    
    \vspace{1em}
    
-   \begin{tabularx}{\linewidth}{|X|X|>{\centering\arraybackslash}X|}
+   \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
+   \begin{ttableau}{\linewidth}{3}
     \hline
     \multicolumn{1}{|c|}{\textbf{Phrase}}	&	\multicolumn{1}{c}{\textbf{Phrase codée}}	&	\multicolumn{1}{|c|}{\textbf{Dessin}}			 	\\  \hline
     								&	Tracer $[UV]$							&	\includegraphics[width=2.6cm]{phraseUV}		\\  \hline
@@ -58,13 +64,15 @@ Quand le code est compris, tracer la figure de la case \circled{3} et écrire la
    Tracer la demi-droite d'origine $O$ et 	&										&	\includegraphics[width=2.6cm]{phraseOU}		\\
    passant par $U$					&										&										\\  \hline
    								&	Tracer $(BC)$							&	\includegraphics[width=2.6cm]{phraseBC}		\\  \hline
-    \end{tabularx}\\[1em]
+  \end{ttableau}
   
    \end{enumerate} 
 
   \end{partie}
 
 \end{activite}
+
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -241,6 +249,8 @@ Trace deux droites sécantes $d$ et $d'$. À l'aide de l'équerre que tu as fabr
   \end{itemize}
   
   \end{partie}
+  
+  \vspace{2em}
   
  \begin{partie}[De la figure au programme]
  \begin{minipage}[c]{0.48\linewidth} 

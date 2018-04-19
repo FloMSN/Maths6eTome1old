@@ -12,15 +12,15 @@ Un \MotDefinition{angle}{} est une portion de plan délimitée par deux demi-dro
 
 On classe les angles par catégories selon leur mesure.
 
-\begin{tabular}{|c|c|c|c|c|c|}
+ \renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
+ \begin{ttableau}{\linewidth}{6}
 \hline \textbf{Angle} 	&	Nul	&	Aigu		&	Droit		&	Obtus	&	Plat	\\ \hline
  \textbf{Figure} 	&	\includegraphics[width=1.7cm]{angle_nul}	&	\includegraphics[width=1.7cm]{angle_aigu}	&	\includegraphics[width=1.7cm]{angle_droit}	&	\includegraphics[width=1.7cm]{angle_obtus}	&	\includegraphics[width=1.7cm]{angle_plat}	\\ \hline
  \textbf{Mesure} 	&	$0^\circ$	&	entre $0^\circ$ et $90^\circ$	&	$90^\circ$		&	entre $90^\circ$ et $180^\circ$	&	 $180^\circ$	\\ \hline
  \multirow{3}{*}{\textbf{Position des côtés}} 	&		&	&	&	&	dans le 	\\ 
  	&	confondus		&	&	perpendiculaires	&	&	 prolongement	\\
 	&	&	&	&	&	 l'un de l'autre	\\ \hline
-
- \end{tabular}
+ \end{ttableau}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -106,6 +106,8 @@ On trace la demi‑droite d'origine $U$ passant par le repère. On place un poin
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\section{Constructions graphiques : parallèles et perpendiculaires}
+
 \begin{methode*1}[Construire la perpendiculaire à une droite passant par un point]
 
 \begin{exemple*1}
@@ -130,6 +132,8 @@ Trace la droite $d'$ perpendiculaire à la droite $d$ passant par le point $M$. 
  
 \end{methode*1}
 
+\newpage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{methode*1}[Construire la parallèle à une droite passant par un point]
@@ -153,13 +157,16 @@ Trace dans ton cahier un segment $[AB]$ d'une longueur de 5 cm et place un point
 \end{methode*1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{La médiatrice}
+\newpage
 
-\begin{methode*1}[Construire une médiatrice]
+\section{La médiatrice}
 
 \begin{aconnaitre}
 La \textbf{\MotDefinition{médiatrice}{}} d'un segment est la droite qui coupe ce segment perpendiculairement en son milieu.
 \end{aconnaitre}
+
+
+\begin{methode*1}[Construire une médiatrice]
 
 \begin{exemple*1}
 Trace un segment $[OS]$ de longueur 5 cm puis sa médiatrice. \\[0.75em]
@@ -196,11 +203,15 @@ Trace un segment $[AB]$ de 7 cm. Trace la médiatrice du segment $[AB]$ par la m
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Construire une bissectrice]
+\section{La bissectrice}
 
 \begin{aconnaitre}
 La \textbf{\MotDefinition{bissectrice}{}} d'un angle est l'axe de symétrie de cet angle.
 \end{aconnaitre}
+
+
+\begin{methode*1}[Construire une bissectrice]
+
 
 \begin{exemple*1} \\[0.75em]
 Trace un angle $\widehat{xOy}$. Construis sa bissectrice au compas. \\[0.5em]
@@ -222,21 +233,26 @@ Au compas, on trace un arc de cercle de centre $O$ qui coupe chaque côté de l'
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Vocabulaire du cercle]
+\section{Le cercle}
 
 \begin{definition}
 Un \textbf{\MotDefinition{cercle}{}} de centre $O$ est l'ensemble des points situés à la même distance du point $O$. 
 Cette distance est le \textbf{\MotDefinition{rayon}{}} du cercle.
 \end{definition}
 
-\begin{tabular}{|c|p{5cm}|p{3cm}|}
+\begin{methode*1}[Vocabulaire du cercle]
+
+ 
+%\vspace{2em}
+
+\begin{tabularx}{.95\linewidth}{|X|p{5cm}|p{3cm}|}
 \hline
- \multirow{5}{*}{\includegraphics[width=2.4cm]{cercleAFNME}} & Le \textcolor{C2}{\textbf{centre}} d'un cercle est le point équidistant de tous les points qui constituent ce cercle. & Le point $O$ est le \textcolor{C2}{\textbf{centre}} du cercle $(\mathcal{C})$.\\ \hline
- & Un \textcolor{J1}{\textbf{rayon}} d'un cercle est un segment ayant pour extrémités le centre et un point de ce cercle. & Le segment $[OA]$ est un  \textcolor{J1}{\textbf{rayon}} du cercle $(\mathcal{C})$.\\ \hline
- & Un  \textcolor{H1}{\textbf{diamètre}} d'un cercle est un segment ayant pour extrémités deux points de ce cercle et contenant son centre. & Le segment $[EF]$ est un  \textcolor{H1}{\textbf{diamètre}} du cercle $(\mathcal{C})$.\\ \hline
- & Une  \textcolor{PartieFonction}{\textbf{corde}} d'un cercle est un segment ayant pour extrémités deux points de ce cercle. & Le segment $[MN]$ est une  \textcolor{PartieFonction}{\textbf{corde}} du cercle $(\mathcal{C})$.\\ \hline
+\multirow{5}{*}{\includegraphics[width=3.4cm]{cercleAFNME}}  & Le \textcolor{C2}{\textbf{centre}} d'un cercle est le point équidistant de tous les points qui constituent ce cercle. & Le point $O$ est le \textcolor{C2}{\textbf{centre}} du cercle $(\mathcal{C})$.\\ \cline{2-3}
+ & Un \textcolor{J1}{\textbf{rayon}} d'un cercle est un segment ayant pour extrémités le centre et un point de ce cercle. & Le segment $[OA]$ est un  \textcolor{J1}{\textbf{rayon}} du cercle $(\mathcal{C})$.\\ \cline{2-3}
+  & Un  \textcolor{H1}{\textbf{diamètre}} d'un cercle est un segment ayant pour extrémités deux points de ce cercle et contenant son centre. & Le segment $[EF]$ est un  \textcolor{H1}{\textbf{diamètre}} du cercle $(\mathcal{C})$.\\ \cline{2-3}
+ & Une  \textcolor{PartieFonction}{\textbf{corde}} d'un cercle est un segment ayant pour extrémités deux points de ce cercle. & Le segment $[MN]$ est une  \textcolor{PartieFonction}{\textbf{corde}} du cercle $(\mathcal{C})$.\\ \cline{2-3}
  & Un  \textcolor{B2}{\textbf{arc de cercle}} est une portion de cercle comprise entre deux points de ce cercle. & La portion de cercle $\overset{\huge{\frown}}{MN}$ comprise entre $M$ et $N$ est un  \textcolor{B2}{\textbf{arc du cercle}} $(\mathcal{C})$.\\ \hline
-  \end{tabular} \\
+  \end{tabularx}
   
  \begin{remarque}
  Par commodité de langage, on appelle « rayon » la longueur du rayon d'un cercle, et  on appelle « diamètre » la longueur de son diamètre.
@@ -249,10 +265,10 @@ Cette distance est le \textbf{\MotDefinition{rayon}{}} du cercle.
  \begin{exemple*1} \\[0.75em]
 Trace le cercle de centre $T$ passant par le point $U$. \\[0.5em]
 
-\begin{tabularx}{\textwidth}{X|X|X}
- \includegraphics[width=1.8cm]{pointsUT} &  \includegraphics[width=3.2cm]{compasUT} & \includegraphics[width=4.1cm]{cercleUT} \\ 
-  & On pointe le compas sur le point $T$ et on écarte le compas jusqu'à ce que la mine soit sur le point $U$. & On trace le cercle. \\
-\end{tabularx} \\
+\begin{tabularx}{\linewidth}{X|X|X}
+ \includegraphics[width=1.8cm]{pointsUT} &  \includegraphics[width=3.2cm]{compasUT} & \includegraphics[width=3.2cm]{cercleUT} \\ 
+  & \multicolumn{1}{|p{3cm}|}{On pointe le compas sur le point $T$ et on écarte le compas jusqu'à ce que la mine soit sur le point $U$.} & On trace le cercle. \\
+\end{tabularx} 
 
  \end{exemple*1}
 

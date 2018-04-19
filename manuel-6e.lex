@@ -6,8 +6,8 @@
 \smc@preinsertlexique []{angle}{43}
 \smc@preinsertlexique []{m\IeC {\'e}diatrice}{47}
 \smc@preinsertlexique []{bissectrice}{48}
-\smc@preinsertlexique []{cercle}{49}
-\smc@preinsertlexique []{rayon}{49}
+\smc@preinsertlexique []{cercle}{48}
+\smc@preinsertlexique []{rayon}{48}
 \smc@preinsertlexique []{expression}{68}
 \smc@preinsertlexique []{hauteur}{88}
 \smc@preinsertlexique []{concourantes}{89}
