@@ -1,4 +1,4 @@
-%\section{} % Il faut mettre un titre ?
+\section{Aire d'une figure géométrique} 
 
 % remarque : pour qu'un mot se retrouve dans le lexique : \MotDefinition{asymptote horizontale}{} 
 
@@ -37,20 +37,24 @@ Donc l'aire de la figure jaune est comprise entre 4 et 18 carreaux.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Transformer des unités de longueurs et d'aires]
+\vspace{2em}
+
 
 \begin{aconnaitre}[Les longueurs]
 Les \MotDefinition{facteurs de multiplication}{} des \textbf{\textcolor{H1}{m (mètres)}} sont :
 \begin{colitemize}{2}
-\item \textbf{k} (kilo) : 1\,000 ;
-\item \textbf{h} (hecto) : 100 ;
-\item \textbf{da} (déca) : 10 ;
-\item \textbf{d} (déci) : 0,1 ;
-\item \textbf{c} (centi) : 0,01 ;
-\item \textbf{m} (milli) : 0,001.
+\item \textbf{k} (kilo) : $1\,000 = 10^3$ ;
+\item \textbf{h} (hecto) : $100 = 10^2$ ;
+\item \textbf{da} (déca) : $10 = 10^1$ ;
+\item \textbf{d} (déci) : $0,1 = 10^{-1}$ ;
+\item \textbf{c} (centi) : $0,01 = 10^{-2}$ ;
+\item \textbf{m} (milli) : $0,001 = 10^{-3}$.
 \end{colitemize}
 \end{aconnaitre}
 
+\vspace{2em}
+
+\begin{methode*1}[Transformer des unités de longueurs]
 
 \begin{exemple*1}
 Transforme 0,5 km en m.
@@ -59,27 +63,6 @@ Les m (mètres) sont l'unité de mesure.
 
 1 km = 1\,000 m, donc 0,5 km $= 0,5 \cdot 1\,000$ m = 500 m
 \end{exemple*1}
-
-
-\begin{aconnaitre}[Les aires]
-Les \MotDefinition{facteurs de multiplication}{} des \textbf{\textcolor{H1}{m\up{2} (mètres carrés)}} sont :
-\begin{colitemize}{2}
-\item \textbf{k} (kilo) : 1\,000\,000 ;
-\item \textbf{h} (hecto) : 10\,000 ;
-\item \textbf{da} (déca) : 100 ;
-\item \textbf{d} (déci) : 0,01 ;
-\item \textbf{c} (centi) : 0,000\,1 ;
-\item \textbf{m} (milli) : 0,000\,001.
-\end{colitemize}
-\end{aconnaitre}
-
-
-\begin{exemple*1}
-Transforme 3 hm\up{2} en m\up{2}.
-
-1 hm\up{2} = 10\,000 m\up{2}, donc 3 hm\up{2} $= 3 \cdot 10\,000$ m\up{2} = 30\,000 m\up{2}
-\end{exemple*1}
-
 
 \exercice 
 Effectue les conversions d'unités de longueurs suivantes :
@@ -93,6 +76,31 @@ Effectue les conversions d'unités de longueurs suivantes :
  \end{colenumerate}
 %\correction
 
+\end{methode*1}
+
+\newpage
+
+\begin{aconnaitre}[Les aires]
+Les \MotDefinition{facteurs de multiplication}{} des \textbf{\textcolor{H1}{m\up{2} (mètres carrés)}} sont :
+\begin{colitemize}{2}
+\item \textbf{k} (kilo) : 1\,000\,000 ;
+\item \textbf{h} (hecto) : 10\,000 ;
+\item \textbf{da} (déca) : 100 ;
+\item \textbf{d} (déci) : 0,01 ;
+\item \textbf{c} (centi) : 0,000\,1 ;
+\item \textbf{m} (milli) : 0,000\,001.
+\end{colitemize}
+\end{aconnaitre}
+
+\vspace{4em}
+
+\begin{methode*1}[Transformer des unités d'aires]
+
+\begin{exemple*1}
+Transforme 3 hm\up{2} en m\up{2}.
+
+1 hm\up{2} = 10\,000 m\up{2}, donc 3 hm\up{2} $= 3 \cdot 10\,000$ m\up{2} = 30\,000 m\up{2}
+\end{exemple*1}
 
 \exercice 
 Effectue les conversions d'unités d'aires suivantes :
@@ -105,21 +113,31 @@ Effectue les conversions d'unités d'aires suivantes :
  \item 400 cm\up{2} en dam\up{2}.
  \end{colenumerate}
 %\correction
- 
-\end{methode*1}
+
+ \end{methode*1}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Calculer des aires à l'aide d'une formule]
+\newpage
+
 
 \begin{aconnaitre}
 \begin{tabularx}{\linewidth}{|c|X|X|}
-\hline
-& \begin{center} \textbf{\textcolor{H1}{Rectangle}} \includegraphics[width=2.5cm]{rectangleLI} \end{center} & \begin{center} \textbf{\textcolor{H1}{Triangle rectangle}} \includegraphics[width=2.7cm]{rectangleABCD4} \end{center} \\\hline
-Formule & L'aire du carré peut se calculer avec cette formule : \textbf{\textcolor{H1}{$A = L \cdot l$}} & L'aire de $ABD$ est égale à la moitié de l'aire de $ABCD$ : \textbf{\textcolor{H1}{$A = \dfrac{AB \cdot AD}{2}$}} \\\hline
+ \cline{2-3}
+\multicolumn{1}{c|}{} & \begin{center} \textbf{\textcolor{H1}{Rectangle}} \includegraphics[width=2.5cm]{rectangleLI} \end{center} & \begin{center} \textbf{\textcolor{H1}{Triangle rectangle}} \includegraphics[width=2.7cm]{rectangleABCD4} \end{center} \\ \hline
+Formule & L'aire du rectangle peut se calculer avec cette formule : \textbf{\textcolor{H1}{$\mathcal{A} = L \cdot \ell$}} & L'aire de $ABD$ est égale à la moitié de l'aire de $ABCD$ : \textbf{\textcolor{H1}{$\mathcal{A} = \dfrac{AB \cdot AD}{2}$}} \\\hline
  \end{tabularx} \\[1em]
 Les longueurs doivent être exprimées dans la même unité.
 \end{aconnaitre}
+
+
+
+\vspace{4em}
+
+\begin{methode*1}[Calculer des aires à l'aide d'une formule]
 
 \begin{exemple*1}
 Calcule l'aire de la figure $ABCDE$ ci‑dessous (L'unité de longueur est le centimètre) :
@@ -127,9 +145,9 @@ Calcule l'aire de la figure $ABCDE$ ci‑dessous (L'unité de longueur est le ce
 
  \begin{itemize}
   \item La figure est composée du rectangle $ABDE$ et du triangle rectangle $BCD$. Son aire est donc égale à la somme de l'aire de $ABDE$ et de l'aire de $BCD$ ;
-  \item $A_{ABDE} = AB \cdot AE = 7$ cm $\cdot$ 2,5 cm = 17,5 cm\up{2} ; \\[0.2em]
-  \item $A_{BCD} = \dfrac{BC \cdot BD}{2} = \dfrac{5,4 cm \cdot 2,5 cm}{2} = \dfrac{13,5 cm\up{2}}{2} = 6,75 cm\up{2}$ ;\\[0.2em]
-  \item $A_{ABCDE} = 17,5$ cm\up{2} $+$ 6,75 cm\up{2} = 24,25 cm\up{2}.
+  \item $\mathcal{A}_{ABDE} = AB \cdot AE = 7$ cm $\cdot$ 2,5 cm = 17,5 cm\up{2} ; \\[0.2em]
+  \item $\mathcal{A}_{BCD} = \dfrac{BC \cdot BD}{2} = \dfrac{5,4 cm \cdot 2,5 cm}{2} = \dfrac{13,5 cm\up{2}}{2} = 6,75 cm\up{2}$ ;\\[0.2em]
+  \item $\mathcal{A}_{ABCDE} = 17,5$ cm\up{2} $+$ 6,75 cm\up{2} = 24,25 cm\up{2}.
   \item L'aire de la figure $ABCDE$ est donc égale à 24,25 cm\up{2}.
   \end{itemize}
 \end{exemple*1}
@@ -151,15 +169,28 @@ $SO = 8,04$ dm et $SN = 0,93$ m. Détermine son aire.
 \end{methode*1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
 
-\begin{methode*1}[Calculer l’aire d’un parallélogramme]
+\section{Aire d'un parallélogramme}
+
+\vspace{2em}
 
 \begin{aconnaitre}
 Pour calculer l’\MotDefinition{aire d’un parallélogramme}{}, on multiplie la \textbf{\textcolor{H1}{longueur d'un côté}} par la \textbf{\textcolor{C2}{hauteur}} relative à ce côté :
-\begin{center} \textbf{$A = b \cdot h$} \end{center}
 
-\begin{center} \includegraphics[width=4cm]{parallelogrammehb} \end{center}
+\vspace{1em}
+
+\begin{tabularx}{\textwidth}{XX}
+{\large $\mathcal{A} = b \cdot h$} & \includegraphics[width=4cm]{parallelogrammehb} \\
+ \end{tabularx} \\
+
 \end{aconnaitre}
+
+
+\vspace{4em}
+
+\begin{methode*1}[Calculer l’aire d’un parallélogramme]
+
 
 \begin{exemple*1}
 Détermine l’\textbf{aire} du parallélogramme suivant :
@@ -167,7 +198,7 @@ Détermine l’\textbf{aire} du parallélogramme suivant :
 \begin{itemize}
  \item On mesure la \textbf{\textcolor{H1}{longueur}} d'un côté ;
  \item On mesure la \textbf{\textcolor{C2}{hauteur}} relative à ce côté ;
- \item On multiplie la longueur du côté repéré par la hauteur relative à ce côté : $A = 12 \cdot 5 = 60$ ;
+ \item On multiplie la longueur du côté repéré par la hauteur relative à ce côté : $\mathcal{A} = 12 \cdot 5 = 60$ ;
  \item L'aire du parallélogramme vaut 60 cm\up{2}.
  \end{itemize}
  \end{minipage} \hfill%
@@ -192,15 +223,26 @@ Détermine l’aire des parallélogrammes $MNOP$ et $ABCD$ ci-dessous :
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Calculer l’aire d’un triangle]
+\newpage
+
+
+\section{Aire d'un triangle}
+
+\vspace{2em}
 
 \begin{aconnaitre}
 Pour calculer l’aire d’un triangle, on multiplie la \textbf{\textcolor{H1}{longueur d'un côté}} par la \textbf{\textcolor{C2}{hauteur}} relative à ce côté puis on divise le résultat par 2 :
 
 \begin{tabularx}{\textwidth}{XX}
-$A = \dfrac{b \cdot h}{2}$ & \includegraphics[width=5cm]{longueur_hauteur} \\
+{\large $\mathcal{A} = \dfrac{b \cdot h}{2}$} & \includegraphics[width=5cm]{longueur_hauteur} \\
  \end{tabularx} \\
  \end{aconnaitre}
+
+\vspace{4em}
+
+\begin{methode*1}[Calculer l’aire d’un triangle]
+
+
  
 \begin{exemple*1}
 Calcule l’aire du triangle suivant :
@@ -209,7 +251,7 @@ Calcule l’aire du triangle suivant :
  \item On mesure la longueur d'un côté ;
  \item On mesure la hauteur relative à ce côté ;
  \item On multiplie la longueur du côté repéré par la hauteur relative à ce côté puis on divise le résultat par 2 : \\[0.3em]
-$A = \dfrac{10 \cdot 3}{2} = \dfrac{30}{2} = 15$. \\[0.3em]
+$\mathcal{A} = \dfrac{10 \cdot 3}{2} = \dfrac{30}{2} = 15$. \\[0.3em]
 L'aire du triangle vaut 15 cm\up{2}.
  \end{itemize}
  \end{minipage} \hfill%
@@ -235,15 +277,26 @@ Calcule l’aire des triangles suivants :
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{methode*1}[Calculer l’aire d’un losange]
+\newpage
+
+
+\section{Aire d'un losange}
+
+\vspace{2em}
 
 \begin{aconnaitre}
 Pour calculer l’aire d’un losange, on effectue le produit des \textbf{\textcolor{H1}{longueurs des diagonales}} puis on divise le résultat par 2 : 
 
 \begin{tabularx}{\textwidth}{XX}
-$A = \dfrac{d \cdot D}{2}$ & \includegraphics[width=5cm]{losangeDd} \\
+{\large $\mathcal{A} = \dfrac{d \cdot D}{2}$} & \includegraphics[width=5cm]{losangeDd} \\
  \end{tabularx} \\
  \end{aconnaitre}
+
+\vspace{4em}
+
+\begin{methode*1}[Calculer l’aire d’un losange]
+
+
  
  \begin{exemple*1}
 Calcule l’aire du losange suivant :
@@ -251,7 +304,7 @@ Calcule l’aire du losange suivant :
 \begin{itemize}
  \item On repère la longueur des diagonales.
  \item On calcule le produit des longueurs des diagonales puis on divise le résultat par 2 : \\[0.3em]
-$A = \dfrac{10 \cdot 5}{2} = \dfrac{50}{2} = 25$ \\[0.3em]
+$\mathcal{A} = \dfrac{10 \cdot 5}{2} = \dfrac{50}{2} = 25$ \\[0.3em]
 L'aire du losange vaut 25 cm\up{2}.
  \end{itemize}
  \end{minipage} \hfill%
@@ -266,10 +319,10 @@ Calcule l’aire des losanges suivants :
 \begin{colenumerate}{2}
  \item
  
- \includegraphics[width=3.3cm]{losange12_10}
+ \includegraphics[width=5cm]{losange12_10}
  \item
  
- \includegraphics[width=2.9cm]{losange10_10}
+ \includegraphics[width=4cm]{losange10_10}
  \end{colenumerate}
 %\correction
 

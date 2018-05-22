@@ -14,19 +14,19 @@
 \smc@preinsertlexique []{centre du cercle circonscrit au triangle}{88}
 \smc@preinsertlexique []{centre du cercle inscrit}{89}
 \smc@preinsertlexique []{nombre premier}{107}
-\smc@preinsertlexique []{PGDC de deux entiers positifs}{108}
-\smc@preinsertlexique []{PPMC de deux entiers positifs}{109}
+\smc@preinsertlexique []{PGDC de deux entiers positifs}{109}
+\smc@preinsertlexique []{PPMC de deux entiers positifs}{111}
 \smc@preinsertlexique []{parall\IeC {\'e}logramme}{128}
-\smc@preinsertlexique []{rectangle}{129}
-\smc@preinsertlexique []{losange}{129}
-\smc@preinsertlexique []{carr\IeC {\'e}}{129}
-\smc@preinsertlexique []{nombre relatif positif}{143}
-\smc@preinsertlexique []{nombre relatif n\IeC {\'e}gatif}{143}
-\smc@preinsertlexique []{abscisse}{144}
-\smc@preinsertlexique []{valeur absolue}{145}
-\smc@preinsertlexique []{coordonn\IeC {\'e}es}{146}
-\smc@preinsertlexique []{ordonn\IeC {\'e}e}{146}
-\smc@preinsertlexique []{Comparer deux nombres}{147}
-\smc@preinsertlexique []{facteurs de multiplication}{168}
-\smc@preinsertlexique []{facteurs de multiplication}{168}
-\smc@preinsertlexique []{aire d\IeC {\textquoteright }un parall\IeC {\'e}logramme}{170}
+\smc@preinsertlexique []{rectangle}{128}
+\smc@preinsertlexique []{losange}{128}
+\smc@preinsertlexique []{carr\IeC {\'e}}{128}
+\smc@preinsertlexique []{nombre relatif positif}{145}
+\smc@preinsertlexique []{nombre relatif n\IeC {\'e}gatif}{145}
+\smc@preinsertlexique []{abscisse}{146}
+\smc@preinsertlexique []{valeur absolue}{147}
+\smc@preinsertlexique []{coordonn\IeC {\'e}es}{148}
+\smc@preinsertlexique []{ordonn\IeC {\'e}e}{148}
+\smc@preinsertlexique []{Comparer deux nombres}{149}
+\smc@preinsertlexique []{facteurs de multiplication}{169}
+\smc@preinsertlexique []{facteurs de multiplication}{170}
+\smc@preinsertlexique []{aire d\IeC {\textquoteright }un parall\IeC {\'e}logramme}{172}

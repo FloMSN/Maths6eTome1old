@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="210mm" height="297mm" viewBox="0 0 21000 29700" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="21000" height="29700"/>
+  </clipPath>
+  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+   <rect x="21" y="29" width="20958" height="29641"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <font id="EmbeddedFont_1" horiz-adv-x="2048">
+   <font-face font-family="Bitstream Vera Sans embedded" units-per-em="2048" font-weight="bold" font-style="normal" ascent="1905" descent="476"/>
+   <missing-glyph horiz-adv-x="2048" d="M 0,0 L 2047,0 2047,2047 0,2047 0,0 Z"/>
+   <glyph unicode="d" horiz-adv-x="1232" d="M 934,956 L 934,1556 1294,1556 1294,0 934,0 934,162 C 885,96 830,48 771,17 712,-14 643,-29 565,-29 427,-29 314,26 225,136 136,245 92,386 92,559 92,732 136,873 225,983 314,1092 427,1147 565,1147 642,1147 711,1132 771,1101 830,1070 885,1021 934,956 Z M 698,231 C 775,231 833,259 874,315 914,371 934,452 934,559 934,666 914,747 874,803 833,859 775,887 698,887 622,887 564,859 524,803 483,747 463,666 463,559 463,452 483,371 524,315 564,259 622,231 698,231 Z"/>
+   <glyph unicode="D" horiz-adv-x="1429" d="M 573,1202 L 573,291 711,291 C 868,291 989,330 1072,408 1155,486 1196,599 1196,748 1196,896 1155,1009 1072,1086 989,1163 869,1202 711,1202 Z M 188,1493 L 594,1493 C 821,1493 990,1477 1101,1445 1212,1412 1307,1357 1386,1280 1456,1213 1508,1135 1542,1047 1576,959 1593,859 1593,748 1593,635 1576,535 1542,447 1508,358 1456,280 1386,213 1306,136 1210,81 1098,49 986,16 818,0 594,0 L 188,0 Z"/>
+  </font>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+  <g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="container-id1">
+    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g class="Page">
+      <g class="Graphic">
+       <g>
+        <rect class="BoundingBox" stroke="none" fill="none" x="7848" y="13640" width="5675" height="2639"/>
+        <image x="7848" y="13640" width="5675" height="2639" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+       </g>
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.TextShape">
+        <g id="id3">
+         <rect class="BoundingBox" stroke="none" fill="none" x="10280" y="16360" width="948" height="970"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="Bitstream Vera Sans, sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="10639" y="16781"><tspan fill="rgb(111,181,68)" stroke="none">d</tspan></tspan></tspan></text>
+        </g>
+       </g>
+       <g class="com.sun.star.drawing.LineShape">
+        <g id="id4">
+         <rect class="BoundingBox" stroke="none" fill="none" x="7704" y="16223" width="5843" height="181"/>
+         <path fill="none" stroke="rgb(111,181,68)" stroke-width="19" stroke-linejoin="round" d="M 7943,16313 L 13307,16313"/>
+         <path fill="rgb(111,181,68)" stroke="none" d="M 7941,16242 L 7955,16223 7704,16313 7955,16403 7942,16385 7931,16363 7924,16340 7921,16314 7923,16288 7930,16264 7941,16242 Z"/>
+         <path fill="rgb(111,181,68)" stroke="none" d="M 13309,16384 L 13295,16403 13546,16313 13295,16223 13308,16241 13319,16263 13326,16286 13329,16312 13327,16338 13320,16362 13309,16384 Z"/>
+        </g>
+       </g>
+      </g>
+      <g class="Group">
+       <g class="com.sun.star.drawing.TextShape">
+        <g id="id5">
+         <rect class="BoundingBox" stroke="none" fill="none" x="13519" y="14767" width="949" height="778"/>
+         <text class="TextShape"><tspan class="TextParagraph" font-family="Bitstream Vera Sans, sans-serif" font-size="318px" font-weight="700"><tspan class="TextPosition" x="13862" y="15188"><tspan fill="rgb(173,100,154)" stroke="none">D</tspan></tspan></tspan></text>
+        </g>
+       </g>
+       <g class="com.sun.star.drawing.LineShape">
+        <g id="id6">
+         <rect class="BoundingBox" stroke="none" fill="none" x="13512" y="13619" width="181" height="2740"/>
+         <path fill="none" stroke="rgb(173,100,154)" stroke-width="19" stroke-linejoin="round" d="M 13602,16119 L 13602,13858"/>
+         <path fill="rgb(173,100,154)" stroke="none" d="M 13531,16121 L 13512,16107 13602,16358 13692,16107 13674,16120 13652,16131 13629,16138 13603,16141 13577,16139 13553,16132 13531,16121 Z"/>
+         <path fill="rgb(173,100,154)" stroke="none" d="M 13673,13856 L 13692,13870 13602,13619 13512,13870 13530,13857 13552,13846 13575,13839 13601,13836 13627,13838 13651,13845 13673,13856 Z"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

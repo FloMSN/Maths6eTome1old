@@ -11,11 +11,11 @@ Donne des exemples de la vie courante pour lesquels on utilise :
 
 
 \begin{exercice}[Interprétation]
-Parmi la liste de mots suivants, quels sont ceux qui peuvent « se traduire » à l'aide : 
+Parmi la liste de mots suivants, quels sont ceux qui peuvent <<\;se traduire\;>> à l'aide : 
 \begin{enumerate}
  \item D'un nombre relatif positif ?
  \item D'un nombre relatif négatif ?
- \item Du nombre relatif « 0 » ?
+ \item Du nombre relatif <<\;0\;>> ?
  \end{enumerate}
  
 Diminuer, croître, soldes, monter, croissance, recul, freiner, augmenter, déclin, progression, ajouter, hausse, maigrir, ôter, dépense, régression, stable, descendre, accélérer, baisse, centupler, fixe, atténuer, constant, restreindre, chute, ascendant, amoindrir, stagnation.
@@ -25,7 +25,7 @@ Diminuer, croître, soldes, monter, croissance, recul, freiner, augmenter, décl
 \begin{exercice}
 Recopie et complète les phrases en utilisant les mots proposés :
 
-\boxed{positif} \quad \boxed{négatif} \quad \boxed{plus} \quad \boxed{relatif} \quad \boxed{relatif}.
+\boxed{\text{positif}} \quad \boxed{\text{négatif}} \quad \boxed{\text{plus}} \quad \boxed{\text{relatif}} \quad \boxed{\text{relatif}}
 
 \begin{enumerate}
  \item $- 4$ est un nombre \ldots \ldots \ldots \ldots ;
@@ -39,12 +39,15 @@ Recopie et complète les phrases en utilisant les mots proposés :
 \begin{exercice}[L'opposé de l'opposé]
 \begin{enumerate}
  \item Recopie et complète le tableau suivant : \\[0.5em]
- \begin{tabularx}{0.8\linewidth}{|c|X|X|X|X|X|}
+{\small
+ \begin{tabularx}{\linewidth}{|c|X|c|X|c|c|}
   \hline
- Nombre & 5 & & 0 & $- 27$ & \\\hline
- Opposé du nombre & & $- 2$ & & & \\\hline
- Opposé de l'opposé du nombre & & & & & 10 \\\hline
+ Nombre & 5 & & 0 & $-27$ & \\\hline
+ Opposé du nombre & & $-2$ & & & \\\hline
+ Opposé de l'opposé & & & & & \multirow{2}{*}{10} \\
+du nombre & & & & & \\\hline
   \end{tabularx} \\[0.5em]
+  } % fin du small
  \item Que peux-tu dire de l'opposé de l'opposé d'un nombre relatif ?
  \end{enumerate}
 \end{exercice}
@@ -468,7 +471,7 @@ Encadre chaque expression par deux nombres entiers consécutifs :
 
 \begin{exercice}[Bulletin météo]
 Voici quelques températures relevées à différents moments de la journée dans plusieurs villes de Suisse : \\[0.5em]
-\begin{tabularx}{\linewidth}{|X|X|X|X|}
+\begin{cltableau}{\linewidth}{4}
  \hline
  & Matin ($^\circ$C) & Midi ($^\circ$C) & Soir ($^\circ$C) \\\hline
  Lausanne & $- 4$ & $+ 1$ & $- 1$ \\\hline
@@ -478,7 +481,7 @@ Voici quelques températures relevées à différents moments de la journée dan
  Fribourg & $- 2$ & $0$ & $- 3$ \\\hline
  Berne & $0$ & $+ 2$ & $- 2$ \\\hline
  Genève & $+ 4$ & $+ 7$ & $+ 2$ \\\hline
- \end{tabularx}
+ \end{cltableau}
  \vspace{0.3cm}
 \begin{enumerate}
  \item Range ces villes dans l'ordre croissant de  leur température du matin ;

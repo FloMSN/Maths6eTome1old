@@ -12,11 +12,13 @@
 \l@methode {Construire les hauteurs d'un triangle}{87}
 \l@methode {Construire le cercle circonscrit à un triangle}{88}
 \l@methode {Centre du cercle inscrit dans un triangle}{89}
-\l@methode {Construire un parallélogramme}{127}
-\l@methode {Construire un losange}{128}
-\l@methode {Évaluer une aire}{167}
-\l@methode {Transformer des unités de longueurs et d'aires}{168}
-\l@methode {Calculer des aires à l'aide d'une formule}{169}
-\l@methode {Calculer l’aire d’un parallélogramme}{170}
-\l@methode {Calculer l’aire d’un triangle}{171}
-\l@methode {Calculer l’aire d’un losange}{172}
+\l@methode {Construire un parallélogramme avec la règle et l'équerre}{129}
+\l@methode {Construire un parallélogramme avec la règle et l'équerre}{130}
+\l@methode {Construire un losange avec le compas}{131}
+\l@methode {Évaluer une aire}{169}
+\l@methode {Transformer des unités de longueurs}{169}
+\l@methode {Transformer des unités d'aires}{170}
+\l@methode {Calculer des aires à l'aide d'une formule}{171}
+\l@methode {Calculer l’aire d’un parallélogramme}{172}
+\l@methode {Calculer l’aire d’un triangle}{173}
+\l@methode {Calculer l’aire d’un losange}{174}
