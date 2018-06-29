@@ -34,6 +34,9 @@ $91 \div 7 = 13$ donc $91 = 7 \cdot 13$.
 \exercice 
 Établis la liste des diviseurs des entiers suivants : 60, 43 et 36.
 
+\vspace{5em}
+
+
 %\dotfill
 
 %\dotfill
@@ -54,13 +57,13 @@ Détermine si 847 est un multiple de 7 :
 %%%%%
   
 \begin{aconnaitre}[Critères de divisibilité]
-Un nombre entier est \textbf{\textcolor{A1}{divisible par 2}} si son chiffre des unités est 0, 2, 4, 6 ou 8 ;
+Un nombre entier est \textbf{\textcolor{A1}{divisible par 2}} si son chiffre des unités est pair (0, 2, 4, 6 ou 8) ;
 
-Un nombre entier est \textbf{\textcolor{A1}{divisible par 3}} si la somme de ses chiffres est divisible par 3 ;
+Un nombre entier est \textbf{\textcolor{A1}{divisible par 3}} si la somme de ses chiffres est un multiple de 3 ;
 
 Un nombre entier est \textbf{\textcolor{A1}{divisible par 6}} si il est divisible par 2 et par 3 ;
 
-Un nombre entier est \textbf{\textcolor{A1}{divisible par 9}} si la somme de ses chiffres est divisible par 9 ;
+Un nombre entier est \textbf{\textcolor{A1}{divisible par 9}} si la somme de ses chiffres est un multiple de 9 ;
 
 Un nombre entier est \textbf{\textcolor{A1}{divisible par 5}} si son chiffre des unités est 0 ou 5 ;
 
@@ -130,12 +133,15 @@ Pour gagner du temps et de la place, si on multiplie le nombre 4, 6 fois par lui
 
 De même on écrit $7^5$ pour écrire plus rapidement $7 \times 7 \times 7 \times 7 \times 7$. \\[1em]
 En mathématiques, on dit que pour tout nombre $a$ non nul et tout nombre entier $n$ positif non nul : $a^n = \stackrel{n \text{ facteurs}}{\overbrace{a \cdot a \cdot a \cdot \ldots \cdot a}}$. On dit que $a$ est la base et $n$ est l'exposant. \\[1em]
+
+$a^n$ se lit «$a$ exposant $n$» ou «$a$ puissance $n$».
+
 \textbf{Cas particuliers} : 
 \begin{itemize}
  \item Tout nombre à la puissance 1 est égal à lui même : 
  
  $3^1 = 3$, $21^1 = 21$ ;
- \item De plus, par convention, tout nombre à la puissance 0 égal 1 : 
+ \item De plus, par convention, tout nombre non nul à la puissance 0 égal 1 : 
  
  $2^0 = 5^0 = 321^0 = 1$ ;
  \item Au lieu de dire «puissance 2», on dit «au carré». 
@@ -144,7 +150,7 @@ En mathématiques, on dit que pour tout nombre $a$ non nul et tout nombre entier
  \end{itemize}
 \end{aconnaitre}
 
-\vspace{8em}
+\vspace{4em}
 
 \begin{methode*1}[Utiliser la notation « puissance »]
 
@@ -171,6 +177,7 @@ Donne l'écriture décimale des nombres :
 
 $A = 3^4$ ; $B = 3^2 \cdot 5^2$ ; $C = (5 \cdot 3)^2$.
 
+\vspace{6em}
 
 %\correction
 
@@ -225,7 +232,7 @@ Tout nombre entier positif peut se décomposer de manière unique en un produit 
 
 \newpage
 
-\begin{methode*1}[Décomposition en produits de facteurs premiers]
+\begin{methode*1}[Décomposition en produits de facteurs premiers à l'aide d'un exemple]
 
 \begin{exemple*1}
 Donne la décomposition de 126 en produit de facteurs premiers.\\[1em]
@@ -247,8 +254,9 @@ Si un nombre est divisible par 10, 100, 1000 \ldots, on peut gagner du temps en 
 
 
 \exercice  
-Donne la décomposition en produit de facteurs premiers de 390 et 594 :
+Donne la décomposition en produit de facteurs premiers de 390 et 594.
 
+\vspace{3em}
 %\correction
 
  \end{methode*1}
@@ -260,22 +268,21 @@ Donne la décomposition en produit de facteurs premiers de 390 et 594 :
  \section{Plus Grand Diviseur Commun (PGCD)}
  
  \begin{definition}
-Le \MotDefinition{PGDC de deux entiers positifs}{} est leur Plus Grand Diviseur Commun.
+Étant donné deux nombres $a$ et $b$, on peut chercher le plus grand nombre qui divise à la fois $a$ et $b$. Ce nombre est leur Plus Grand Diviseur Commun que l'on appelle \MotDefinition{PGDC}{}.
 \begin{itemize}
- \item Si le PGDC de deux entiers positifs est 1, on dit que ces deux entiers sont \textbf{premiers entre eux} (attention, il ne faut pas confondre «deux nombres premiers entre eux» et «un nombre premier».
+ \item Si le PGDC de deux entiers positifs est 1, on dit que ces deux entiers sont \textbf{premiers entre eux} (attention, à ne pas confondre «deux nombres premiers entre eux» et «un nombre premier»).
  \item Si un nombre divise un autre nombre, par exemple 12 divise 48, alors PGDC $(12 ; 48) = 12$.
  \end{itemize}
 \end{definition}
  
- \vspace{4em}
+ \vspace{1em}
  
  Pour trouver le PGDC de deux nombres entiers positifs, on peut utiliser deux méthodes (il en existe d'autres qui ne sont pas au programme) : \\[1em]
+
+
+ \begin{methode*1}[Déterminer le PGDC avec la liste de tous les diviseurs]
+
 \textcolor{H1}{\textbf{Méthode 1}} : On cherche tous les diviseurs de chacun des deux nombres en on prend le plus grand diviseur qu'ils ont en commun.
-
-
-
- \begin{methode*1}[Déterminer le PGDC de deux entiers positifs (1\up{ère} méthode)]
-
 
 \begin{exemple*1}
 Déterminer le PGDC de 12 et 18 en trouvant tous les diviseurs de 12 et tous ceux de 18 : \\[1em]
@@ -290,38 +297,42 @@ Déterminer le PGDC de 12 et 18 en trouvant tous les diviseurs de 12 et tous ceu
 Conclusion : avec la liste des diviseurs de 12 et des diviseurs de 18, on voit que le plus grand diviseur commun à 12 et 18 est 6. \\[-2em]
  \end{exemple*1}
  
+\vspace{1em}
+
+\textcolor{H1}{\textbf{Remarque}} :L'avantage de cette méthode est qu'il est très facile de trouver le PGDC quand on a la liste de tous les diviseurs. L'inconvénient, c'est qu'il est parfois très long de trouver tous les diviseurs des deux nombres.
+
+
  \exercice  
-Déterminer le PGCD de 45 et 75 (la liste des diviseurs de 75 se trouve plus haut dans ce cours…) :
+Déterminer le PGCD de 45 et 75. la liste des diviseurs de 75 se trouve plus haut dans ce cours.
 
-
-%\correction
-
-\exercice  
-Déterminer le PGCD de 35 et 42 :
+\vspace{2em}
 
 %\correction
 
 \exercice  
-Quel est le plus grand nombre entier divisant à la fois 84 et 180?
+Déterminer le PGCD de 35 et 42.
+
+%\correction
+
+%\exercice  
+%Quel est le plus grand nombre entier divisant à la fois 84 et 180?
 
 
 %\correction
 
  \end{methode*1}
 
- 
- \begin{remarque}
-L'avantage de cette méthode est qu'il est très facile de trouver le PGDC quand on a la liste de tous les diviseurs. L'inconvénient, c'est qu'il est parfois très long de trouver tous les diviseurs des deux nombres.
-\end{remarque}
+
 
 
 \newpage
 
+
+
+
+\begin{methode*1}[Déterminer le PGDC avec la décomposition en produits de facteurs premiers]
+
 \textcolor{H1}{\textbf{Méthode 2}} : On décompose les deux nombres en produit de facteurs premiers. On trouve ensuite le PGDC en faisant le produit de tous les facteurs qui sont en commun dans la décomposition des deux nombres.
-
-
-\begin{methode*1}[Déterminer le PGDC de deux entiers positifs (2\up{e} méthode)]
-
 
 \begin{exemple*1}
 Détermine le PGDC de 30 et 45 et décomposant 30 et 45 en produit de facteurs premiers : \\[1em]
@@ -332,6 +343,7 @@ Détermine le PGDC de 30 et 45 et décomposant 30 et 45 en produit de facteurs 
  5 & 5 \\
  1 & \\ 
  \end{tabularx} \\[1em]
+$30 = 2 \times 3 \times 5$ 
 \end{minipage} \hfill%
 \begin{minipage}[t]{0.56\textwidth}
  \begin{tabularx}{0.3\textwidth}{X|X}
@@ -340,30 +352,36 @@ Détermine le PGDC de 30 et 45 et décomposant 30 et 45 en produit de facteurs 
  5 & 5 \\
  1 & \\ 
  \end{tabularx} \\[1em]
+$45 = 3 \times 3 \times 5$
+
  \end{minipage} \\
+
 Le PGDC de 30 et 45 est donc égal au produit des facteurs premiers que l'on trouve dans les deux décompositions, soit 3 et 5 (attention, 3 n’apparaît qu'une seule fois dans la décomposition de 30 donc on ne le prend qu'une seule fois dans le calcul du PGDC).
-On note PGDC $(30 ; 45) = 3 \times 5 = 15$ ou PGDC $(45 ; 30) = 15$. \\[-2em]
+On note PGDC $(30 ; 45) = 3 \times 5 = 15$. \\[-2em]
  \end{exemple*1}
 
- \begin{remarque}
+ \vspace{1em}
+
+\textcolor{H1}{\textbf{Remarque}} :
 L'avantage de cette méthode est qu'elle est plus rapide mais il ne faut pas se tromper dans le choix des facteurs communs aux deux nombres (surtout quand certains facteurs sont écrits avec des puissances).
-\end{remarque}
+
 
 \exercice  
-Déterminer le PGCD de 45 et 75 (la liste des diviseurs de 75 se trouve plus haut dans ce cours…) :
+Déterminer le PGCD de 45 et 75 (la liste des diviseurs de 75 se trouve plus haut dans ce cours…).
 
-
+\vspace{3em}
 %\correction
 
 \exercice  
-Déterminer le PGCD de 35 et 42 :
+Déterminer le PGCD de 35 et 42.
 
-
+\vspace{5em}
 %\correction
 
 \exercice  
 Quel est le plus grand nombre entier divisant à la fois 84 et 180?
 
+\vspace{3em}
 %\correction
 
  \end{methode*1}
@@ -384,15 +402,16 @@ Le PPMC de deux nombres n'est jamais plus grand que le produit des deux nombres.
 Si un nombre est le multiple d'un autre : par exemple 15 est multiple de 3, alors 15 est le PPMC de 15 et 3.
  \end{remarque}
  
-
+ \vspace{2em}
  
  Pour trouver le PPMC de deux nombres entiers positifs, on peut utiliser deux méthodes :  \\[1em]
-\textcolor{H1}{\textbf{Méthode 1}} : On cherche les premiers multiples de chacun des deux nombres en on prend le plus petit qu'ils ont en commun.
 
- \vspace{2em}
 
-\begin{methode*1}[Déterminer le PPMC de deux entiers positifs (1\up{ère} méthode)]
+ %\vspace{2em}
+
+\begin{methode*1}[Déterminer le PPMC avec les premiers multiples ]
  
+\textcolor{H1}{\textbf{PPMC, 1\up{ère} méthode}} : On cherche les premiers multiples de chacun des deux nombres en on prend le plus petit qu'ils ont en commun.
 
 \begin{exemple*1}
 Déterminer le PPMC de 12 et 18 en écrivant les premiers multiples de 12 et de 18 : \\[1em]
@@ -405,19 +424,25 @@ Déterminer le PPMC de 12 et 18 en écrivant les premiers multiples de 12 et de 
  \textcolor{A1}{18 $\times$ 2 $=$ \textbf{36}} &  \\
  \textcolor{A1}{18 $\times$ 3 $=$ 54} & Les premiers multiples de 18 sont donc : 18  ; 36 ; 54. \\
 \end{tabularx} \\[1em]
-Conclusion : avec la liste des premiers multiples de 12 et des premiers multiples de 18, on voit que le plus petit multiple commun à 12 et 18 est 36. \\[-2em]
+Conclusion : avec la liste des premiers multiples de 12 et ceux de 18, on voit que le plus petit multiple commun à 12 et 18 est 36. \\%[-2em]
  \end{exemple*1}
+
+\vspace{1em}
+
+\textcolor{H1}{\textbf{Remarque}} : L'avantage de cette méthode est qu'il est très facile de trouver le PPMC quand on a la liste des premiers multiples. Elle est aussi souvent plus rapide avec des petits nombres. L'inconvénient, c'est qu'il est parfois très long de trouver un premier multiple commun aux deux nombres quand les deux nombres sont grands.
  
  \exercice
-Calculer les 5 premiers multiples de 6 et 10 et déterminer leur PPMC :
+Calculer les 5 premiers multiples de 6 et 10 et déterminer leur PPMC.
+
+\vspace{3em}
  
 
 %\correction
 
  \exercice
-Décomposer 120 et 252 en produit de facteurs premiers puis déterminer leur PPMC :
+Décomposer 120 et 252 en produit de facteurs premiers puis déterminer leur PPMC.
  
-
+%\vspace{3em}
 %\correction
 
  \end{methode*1}
@@ -425,23 +450,22 @@ Décomposer 120 et 252 en produit de facteurs premiers puis déterminer leur PPM
  
  
  
-\begin{remarque}
-L'avantage de cette méthode est qu'il est très facile de trouver le PPMC quand on a la liste des premiers multiples. Elle est aussi souvent plus rapide avec des petits nombres. L'inconvénient, c'est qu'il est parfois très long de trouver un premier multiple commun aux deux nombres quand les deux nombres sont grands.
- \end{remarque}
+
+
+
  
  
  
  
  \newpage
-  
- \textcolor{H1}{\textbf{Méthode 2}} : On décompose les deux nombres en produit de facteurs premiers. On trouve ensuite le PPMC en faisant le produit de tous les facteurs qui apparaissent dans l'une ou l'autre décomposition. Si le facteur premier apparaît dans les deux décompositions, on le prend avec la plus grande puissance qui apparaît.
- 
  
  
  \vspace{2em}
 
  
-\begin{methode*1}[Déterminer le PPMC de deux entiers positifs (2\up{e} méthode)]
+\begin{methode*1}[Déterminer le PPMC avec la décomposition en produits de facteurs premiers]
+
+\textcolor{H1}{\textbf{PPMC, 2\up{e} méthode}} : On décompose les deux nombres en produit de facteurs premiers. On trouve ensuite le PPMC en faisant le produit de tous les facteurs qui apparaissent dans l'une {\textbf ou} l'autre décomposition. Si le facteur premier apparaît dans les deux décompositions, on le prend avec la plus grande puissance qui apparaît.
 
 \begin{exemple*1}
 Déterminer le PPMC de 30 et 45 et décomposant 30 et 45 en produit de facteurs premiers : \\[1em]
@@ -468,20 +492,24 @@ Le PPMC de 30 et 45 est donc égal à $2 × 32 × 5 = 90$.
 On note PPMC $(30 ; 45) = 90$ ou PPMC $(45 ; 30) = 90$. \\[-2em]
  \end{exemple*1}
  
-\begin{remarque}
+\vspace{2em}
+
+\textcolor{H1}{\textbf{Remarque}} :
 L'avantage de cette méthode est qu'elle est plus rapide avec les grands nombres mais il ne faut pas se tromper dans le choix des facteurs communs aux deux nombres (surtout quand certains facteurs sont écrits avec des puissances).
- \end{remarque}
+
  
 
  \exercice
-Calculer les 5 premiers multiples de 6 et 10 et déterminer leur PPMC :
+Calculer les 5 premiers multiples de 6 et 10 et déterminer leur PPMC.
  
+\vspace{5em}
 
 %\correction
 
  \exercice
-Décomposer 120 et 252 en produit de facteurs premiers puis déterminer leur PPMC :
- 
+Décomposer 120 et 252 en produit de facteurs premiers puis déterminer leur PPMC.
+
+\vspace{5em}
 
 %\correction
 

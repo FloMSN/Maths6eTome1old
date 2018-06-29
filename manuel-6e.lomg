@@ -1,19 +1,20 @@
-\l@methode {Nommer un angle}{41}
-\l@methode {Utiliser le rapporteur}{42}
-\l@methode {Construire la perpendiculaire à une droite passant par un point}{43}
-\l@methode {Construire la parallèle à une droite passant par un point}{44}
-\l@methode {Construire une médiatrice}{45}
+\l@methode {Construire la perpendiculaire à une droite passant par un point}{41}
+\l@methode {Construire la parallèle à une droite passant par un point}{42}
+\l@methode {Construire une médiatrice}{43}
+\l@methode {Nommer un angle}{44}
+\l@methode {Utiliser le rapporteur}{45}
 \l@methode {Construire une bissectrice}{46}
 \l@methode {Vocabulaire du cercle}{48}
-\l@methode {Construire un triangle}{83}
-\l@methode {Construire un triangle rectangle}{84}
-\l@methode {Construire un triangle connaissant un angle et les longueurs \\ de ses côtés adjacents}{85}
-\l@methode {Construire un triangle connaissant deux angles et la longueur \\ de leur côté commun}{86}
+\l@methode {Construire un triangle}{81}
+\l@methode {Construire un triangle rectangle}{82}
+\l@methode {Construire un triangle connaissant un angle et les longueurs \\ de ses côtés adjacents}{83}
+\l@methode {Construire un triangle connaissant deux angles et la longueur \\ de leur côté commun}{84}
+\l@methode {Construire le cercle circonscrit à un triangle}{85}
+\l@methode {Construire le centre de gravité d'un triangle}{86}
 \l@methode {Construire les hauteurs d'un triangle}{87}
-\l@methode {Construire le cercle circonscrit à un triangle}{88}
-\l@methode {Centre du cercle inscrit dans un triangle}{89}
+\l@methode {Centre du cercle inscrit dans un triangle}{88}
 \l@methode {Construire un parallélogramme avec la règle et l'équerre}{129}
-\l@methode {Construire un parallélogramme avec la règle et l'équerre}{130}
+\l@methode {Construire un parallélogramme avec le compas}{130}
 \l@methode {Construire un losange avec le compas}{131}
 \l@methode {Évaluer une aire}{169}
 \l@methode {Transformer des unités de longueurs}{169}

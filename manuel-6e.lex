@@ -3,18 +3,24 @@
 \smc@preinsertlexique []{abscisse}{13}
 \smc@preinsertlexique []{Encadrer}{13}
 \smc@preinsertlexique []{Arrondir}{14}
-\smc@preinsertlexique []{angle}{41}
-\smc@preinsertlexique []{m\IeC {\'e}diatrice}{45}
+\smc@preinsertlexique []{m\IeC {\'e}diatrice}{43}
+\smc@preinsertlexique []{angle}{44}
 \smc@preinsertlexique []{bissectrice}{46}
-\smc@preinsertlexique []{cercle}{46}
-\smc@preinsertlexique []{rayon}{46}
-\smc@preinsertlexique []{expression}{67}
+\smc@preinsertlexique []{cercle}{47}
+\smc@preinsertlexique []{rayon}{47}
+\smc@preinsertlexique []{expression}{65}
+\smc@preinsertlexique []{triangle isoc\IeC {\`e}le}{81}
+\smc@preinsertlexique []{triangle \IeC {\'e}quilat\IeC {\'e}ral}{81}
+\smc@preinsertlexique []{triangle rectangle}{81}
+\smc@preinsertlexique []{concourantes}{85}
+\smc@preinsertlexique []{cercle circonscrit}{85}
+\smc@preinsertlexique []{m\IeC {\'e}diane}{86}
+\smc@preinsertlexique []{centre de gravit\IeC {\'e}}{86}
 \smc@preinsertlexique []{hauteur}{87}
-\smc@preinsertlexique []{concourantes}{88}
-\smc@preinsertlexique []{centre du cercle circonscrit au triangle}{88}
-\smc@preinsertlexique []{centre du cercle inscrit}{89}
+\smc@preinsertlexique []{orthocentre}{87}
+\smc@preinsertlexique []{centre du cercle inscrit}{88}
 \smc@preinsertlexique []{nombre premier}{107}
-\smc@preinsertlexique []{PGDC de deux entiers positifs}{109}
+\smc@preinsertlexique []{PGDC}{109}
 \smc@preinsertlexique []{PPMC de deux entiers positifs}{111}
 \smc@preinsertlexique []{parall\IeC {\'e}logramme}{128}
 \smc@preinsertlexique []{rectangle}{128}

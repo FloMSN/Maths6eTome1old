@@ -75,8 +75,8 @@ Quelles sont les valeurs possibles de $u$ pour obtenir :
 
 \begin{exercice}[Diviseurs]
 \begin{enumerate}
- \item Écris trois nombres divisibles par 3 mais pas par 9 ;
- \item Écris trois multiples de 5 divisibles par 9 ;
+ \item Écris deux nombres divisibles par 3 mais pas par 9 ;
+ \item Écris deux multiples de 5 divisibles par 9 ;
  \item Écris le plus grand diviseur de 36 différent de 36.
  \end{enumerate}
 \end{exercice} 
@@ -106,6 +106,16 @@ Quelles sont les valeurs possibles de $u$ pour obtenir :
 \begin{exercice}[Énigme]
 Trouve tous les nombres de trois chiffres divisibles à la fois par 3 et par 5 et dont le chiffre des centaines est 7.
 \end{exercice} 
+
+\begin{exercice}
+Sur chacun des traits \_ , mettre un chiffre pour que les nombres composés soit divisibles par 3 et 5 :
+\begin{enumerate}
+ \item \_ $32$ \_ ;
+ \item $4$ \_ $8$ \_ ;
+ \item $2$ \_ \_ $5$.
+ \end{enumerate}
+\end{exercice}
+
 
 \begin{exercice}[Décompositions]
 \begin{enumerate}
@@ -148,6 +158,10 @@ Trouve tous les nombres de trois chiffres divisibles à la fois par 3 et par 5 e
  \item Encadre 125 puis 255 par des multiples consécutifs de 4.
  \end{enumerate}
 \end{exercice} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\serie{Puissances}
 
 \begin{exercice}[Vocabulaire]
 Voici une liste de mots : base, exposant, puissance, facteurs, produit. Recopie chaque phrase en la complétant par le mot qui convient :
@@ -209,14 +223,6 @@ Décompose puis donne l'écriture décimale sans l’aide de calculatrices :
  \end{colenumerate}
 \end{exercice}
 
-\begin{exercice}
-Remplacer les traits $-$ par un chiffre pour que les nombres donnés soit divisibles par 3 et 5 :
-\begin{enumerate}
- \item $- 32 -$ ;
- \item $4 - 8 -$ ;
- \item $2 - - 5$.
- \end{enumerate}
-\end{exercice}
 
 \begin{exercice}[Calculatrice]
 Donne l'écriture décimale en calculant à la calculatrice :
@@ -255,12 +261,12 @@ $G = 42$.
 \end{exercice} 
 
 \begin{exercice}[Drôles de dames \ldots]
-Nefissa a trouvé une décomposition de 500 en un produit de 3 facteurs : $500 = 2 \cdot 25 \cdot 10$. Ivete affirme qu'elle a trouvé des décompositions avec plus de facteurs. Donne toutes les décompositions qu'Ivete a pu trouver.
+Nefissa a décomposé 500 en un produit de 3 facteurs : $500 = 2 \cdot 25 \cdot 10$. Ivete affirme qu'elle peut décomposer $500$ avec plus de facteurs. Donne toutes les décompositions qu'Ivete a pu trouver.
 \end{exercice} 
 
 \begin{exercice}
 Parmi les nombres suivants, quels sont ceux qui sont premiers ?
-\begin{colenumerate}{4}
+\begin{colitemize}{4}
  \item 25 ;
  \item 17 ;
  \item 36 ;
@@ -273,7 +279,7 @@ Parmi les nombres suivants, quels sont ceux qui sont premiers ?
  \item 31 ;
  \item 88 ;
  \item 1.
- \end{colenumerate}
+ \end{colitemize}
 \end{exercice} 
 
 \begin{exercice}[Produit de facteurs premiers]
@@ -308,9 +314,9 @@ Dans chaque cas, écris la liste des diviseurs communs aux deux nombres et entou
  \item 15 et 45 ;
  \item 27 et 18 ;
  \item 32 et 25 ;
- \item \,56 et 84 ;
- \item \,55 et 75 ;
- \item \,124 et 1.
+% \item 56 et 84 ;
+% \item 55 et 75 ;
+% \item 124 et 1.
   \end{colenumerate}
 \end{exercice} 
 
@@ -400,12 +406,14 @@ Un pâtissier dispose de 75 pommes, 50 oranges et 100 poires. Afin de préparer 
 Recopie et complète la grille à l'aide des nombres que tu trouveras grâce aux définitions.
 
 \begin{center}
-\begin{tabularx}{.6\linewidth}{X|X|X|X|X|}
- & \cellcolor {F2} A & \cellcolor {F2} B & \cellcolor {F2} C & \cellcolor {F2} D \\\cline{2-5}
-\cellcolor{H1} I & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{Noir} \\\cline{2-5}
-\cellcolor{H1} II & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} \\\cline{2-5}
-\cellcolor{H1} III & \cellcolor{G3} & \cellcolor{Noir} & \cellcolor{G3} & \cellcolor{G3} \\\cline{2-5}
-\cellcolor{H1} IV & \cellcolor{Noir} & \cellcolor{G3} & \cellcolor{Noir} & \cellcolor{G3} \\\cline{2-5}
+\renewcommand*\tabularxcolumn[1]{>{\centering\arraybackslash}m{#1}}
+\begin{tabularx}{.6\linewidth}{|X|X|X|X|X|} 
+\cline{2-5}
+\multicolumn{1}{c|}{} & \cellcolor {F2} A & \cellcolor {F2} B & \cellcolor {F2} C & \cellcolor {F2} D \\\hline
+\cellcolor{H1} I & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{Noir} \\\hline
+\cellcolor{H1} II & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} & \cellcolor{G3} \\\hline
+\cellcolor{H1} III & \cellcolor{G3} & \cellcolor{Noir} & \cellcolor{G3} & \cellcolor{G3} \\\hline
+\cellcolor{H1} IV & \cellcolor{Noir} & \cellcolor{G3} & \cellcolor{Noir} & \cellcolor{G3} \\\hline
 \end{tabularx}
 \end{center}
 
@@ -429,6 +437,11 @@ Recopie et complète la grille à l'aide des nombres que tu trouveras grâce aux
 
 \textcolor{F2}{\textbf{D}} : 3 est un diviseur de ce nombre.
 \end{exercice}
+
+%%%%%%%%%%%%%%%%%%%%%%%%Mise en page
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{exercice}[Carrelage]
 Dans une salle de bain, on veut recouvrir le mur se trouvant au-dessus de la baignoire avec un nombre entier de carreaux de faïence de forme carrée dont le côté est un nombre entier de centimètres, le plus grand possible. Détermine la longueur, en centimètres, du côté d'un carreau de faïence sachant que le mur mesure 210 cm de hauteur et 135 cm de largeur. Combien faudra-t-il alors de carreaux ?

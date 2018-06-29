@@ -14,6 +14,14 @@
 % lignes 31 et 32 pour ajouter la commande \circled qui entoure un caractère
 
 
+
+%%%%%%%
+%Rajouté le 12/06/2018 SV et BN pour compilation espace insécable sous linux 
+\DeclareUnicodeCharacter{00A0}{~} %pour remplacer les espaces insécables
+\DeclareUnicodeCharacter{2011}{-}
+%\usepackage{pdfpages}
+%%%%%%%
+
 \input{commandes-manuel-TS} % pour l'instant on garde sinon les corrigés ne sont
 						% pas dans classés dans un dossier "correction"
 \input{commandes-tikz}
@@ -28,6 +36,7 @@
   {Quadrilateres/figures/}%
   {NbsRelatifs/figures/}%
   {PerimetresAires/figures/}%
+  {Images/}%
 }
 
 
@@ -37,7 +46,111 @@
 \renewcommand\ListeMethodesThemes{{c}{C},{g}{G}}
 \renewcommand*\StringListeMethode{M\'ethodes du livret 1}
 
+% création d'un nouveau thème "Manuel" pour le sommaire
+\NewThema{M}{m}{manuel}{Manuel}{MANUEL}{PartieFonction}{A3}
+
 \begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%Couverture inclusion page entière en eps
+\pagestyle{empty}
+
+\includegraphics[width=.92\textwidth]{couverture}
+
+\newpage \pagestyle{empty}
+\addto\captionsfrench{\renewcommand{\contentsname}{Sommaire}}
+
+%\setcounter{tocdepth}{2}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table des matières
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\themaM %thème déclaré en début de document
+\colorlet{ChapterNumColor}{PartieFonction}
+\chapter{Manuel de 6e\\Tome 1}
+
+\vfill
+
+\begin{commentaire}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChNbEntiersDecimaux}: Nombres entiers et décimaux \dotfill\ page \pageref{ChNbEntiersDecimaux}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChDroitesAngles}: Points, segments, droites et angles \dotfill\ page \pageref{ChDroitesAngles}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChPrioritesOperations}: Priorités des opérations \dotfill\ page \pageref{ChPrioritesOperations}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChTriangles}: Triangles \dotfill\ page \pageref{ChTriangles}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChNbEntiersMultDiv}: Nombres entiers, multiples, diviseurs \dotfill\ page \pageref{ChNbEntiersMultDiv}}
+
+\vspace{2em}
+
+\textcolor{PartieGeometrie}{\PrerequisTitleFont 
+Chapitre \ref{ChQuadrilateres}: Quadrilatères \dotfill\ page \pageref{ChQuadrilateres}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChNbRelatifs}: Nombres relatifs \dotfill\ page \pageref{ChNbRelatifs}}
+
+\vspace{2em}
+
+\textcolor{PartieFonction}{\PrerequisTitleFont 
+Chapitre \ref{ChPerimetresAires}: Nombres entiers et décimaux \dotfill\ page \pageref{ChPerimetresAires}}
+
+\vspace{2em}
+
+\end{commentaire}
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fin table des matières
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Page Sesamath
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+
+\begin{prerequis}[Un manuel de l'association Sésamath]
+\begin{itemize}
+\item  Ce manuel est adapté en partie du manuel Sésamath de l'association Sésamath:\\
+\texttt{http://manuel.sesamath.net/}
+\item … Et de l'association Sésamath Suisse romande:\\ \texttt{http://www.sesamath.ch/}
+\item L'Institut Florimont a réalisé la transcription dans le langage de description de documents libre et gratuit \LaTeX{} en utilisant la classe \texttt{sesamanuel} développée par l'association Sésamath;
+\item E. Villié a réalisé la couverture pour l'Institut Florimont;
+\item Version juin 2018 --- Institut Florimont (Genève).
+\end{itemize}
+ \end{prerequis}
+
+\vspace{10em}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fin page Sesamath
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{ChapterNumColor}{white}
+\setcounter{chapter}{0}
 
 \themaC
 \themaG

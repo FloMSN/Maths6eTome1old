@@ -1,3 +1,4 @@
+\smc@corrigechapter {Chapitre{} M1} {Manuel de 6e\\Tome 1}{PartieFonction}{Blanc}
 \smc@corrigechapter {Chapitre{} C1} {Nombres entiers et d\IeC {\'e}cimaux}{PartieFonction}{Blanc}
 \smc@corrigeactivite 
 \smc@corrigeexercicesbase 
@@ -61,13 +62,13 @@
 \smc@corrigeexercicesbase 
 \smc@corrigeexercicesappr 
 \smc@corrigeconnaissances 
-\inputcor {QCM}{G4} {40}
-\inputcor {QCM}{G4} {41}
-\inputcor {QCM}{G4} {42}
-\inputcor {QCM}{G4} {43}
+\inputcor {QCM}{G4} {45}
+\inputcor {QCM}{G4} {46}
+\inputcor {QCM}{G4} {47}
+\inputcor {QCM}{G4} {48}
 \smc@corrigeenigme 
 \smc@corrigeenigme 
-\smc@corrigechapter {Chapitre{} C5} {Nombres entiers, multiples, diviseurs}{PartieFonction}{Blanc}
+\smc@corrigechapter {Chapitre{} C5} {Nombres entiers, \\ multiples, diviseurs}{PartieFonction}{Blanc}
 \smc@corrigeactivite 
 \smc@corrigeexercicesbase 
 \smc@corrigeexercicesappr 

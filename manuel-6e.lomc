@@ -11,17 +11,17 @@
 \l@methode {Conversion en heures, minutes et secondes}{19}
 \l@methode {Addition de durées}{20}
 \l@methode {Soustraction de durées}{20}
-\l@methode {Calculer une expression (1)}{67}
-\l@methode {Calculer une expression (2)}{68}
+\l@methode {Calculer une expression (1)}{65}
+\l@methode {Calculer une expression (2)}{66}
 \l@methode {Multiples, diviseurs}{104}
 \l@methode {Critères de divisibilité}{105}
 \l@methode {Utiliser la notation « puissance »}{106}
 \l@methode {Nombres premiers}{107}
-\l@methode {Décomposition en produits de facteurs premiers}{108}
-\l@methode {Déterminer le PGDC de deux entiers positifs (1\up {ère} méthode)}{109}
-\l@methode {Déterminer le PGDC de deux entiers positifs (2\up {e} méthode)}{110}
-\l@methode {Déterminer le PPMC de deux entiers positifs (1\up {ère} méthode)}{111}
-\l@methode {Déterminer le PPMC de deux entiers positifs (2\up {e} méthode)}{112}
+\l@methode {Décomposition en produits de facteurs premiers à l'aide d'un exemple}{108}
+\l@methode {Déterminer le PGDC avec la liste de tous les diviseurs}{109}
+\l@methode {Déterminer le PGDC avec la décomposition en produits de facteurs premiers}{110}
+\l@methode {Déterminer le PPMC avec les premiers multiples }{111}
+\l@methode {Déterminer le PPMC avec la décomposition en produits de facteurs premiers}{112}
 \l@methode {Savoir utiliser le vocabulaire}{145}
 \l@methode {Repérer un point sur une droite graduée}{146}
 \l@methode {Trouver la valeur absolue d'un nombre relatif}{147}
